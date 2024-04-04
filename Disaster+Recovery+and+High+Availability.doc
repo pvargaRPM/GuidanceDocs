@@ -1,0 +1,397 @@
+Message-ID: <1378863351.71.1641223602689.JavaMail.confluence@ql2confluence1.mi.corp.rockfin.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_70_963672594.1641223602689"
+
+------=_Part_70_963672594.1641223602689
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Disaster Recovery and High Availability</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Disaster Recovery and High Availability</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"DisasterRecoveryandHighAvailability-Whatisdisasterrecover=
+y?">What is disaster recovery?</h3>
+<p>Disaster recovery basically is about recovering from an issue. This usua=
+lly means preparing a disaster recovery plan which details how to recover/r=
+eplace every component of a system(networking, database, servers etc) in ca=
+se of a failure. Having a good disaster recovery plan ensures we can recove=
+r from a failure quickly. This also means we don't experience a huge downti=
+me thereby improving our availability.&nbsp;</p>
+<h3 id=3D"DisasterRecoveryandHighAvailability-Whatishighavailability?">What=
+ is high availability?</h3>
+<p><span style=3D"color: rgb(0,0,0);">Availability is used to describe the =
+period of time when a service is available, as well as the time required by=
+ a system to respond to a request made by a user. High availability is a qu=
+ality of a system or component that assures a high level of operational per=
+formance for a given period of time. A system must have a high level of ava=
+ilability so that users always have a good experience when using the system=
+.</span></p>
+<p><span style=3D"color: rgb(0,0,0);"><br></span></p>
+<h3 id=3D"DisasterRecoveryandHighAvailability-Measuringavailability"><span =
+style=3D"color: rgb(0,0,0);">Measuring availability</span></h3>
+<p><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Av=
+ailability is often expressed as a percentage indicating how much uptime is=
+ expected from a particular system or component in a given period of time, =
+where a value of 100% would indicate that the system never fails. For insta=
+nce, a system that guarantees 99% of availability in a period of one year c=
+an have up to 3.65 days of downtime (1%). We must strive to achieve a high =
+percentage of availability.&nbsp;<span style=3D"color: rgb(0,51,102);">A wi=
+dely-held but difficult-to-achieve standard of availability for a system or=
+ product is known as "five 9s" (<span style=3D"color: rgb(0,51,102);">99.99=
+9</span>&nbsp;percent) availability.</span></span></span></p>
+<p><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><b=
+r></span></span></p>
+<h3 id=3D"DisasterRecoveryandHighAvailability-Whenishighavailabilityimporta=
+nt"><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">W=
+hen is high availability important</span></span></h3>
+<p><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><s=
+pan style=3D"color: rgb(0,0,0);">When setting up robust production systems,=
+ minimizing downtime and service interruptions is often a high priority. Re=
+gardless of how reliable your systems and software are, problems can occur =
+that can bring down your applications or your servers.</span><br><span styl=
+e=3D"color: rgb(0,0,0);">Implementing high availability for your infrastruc=
+ture is a useful strategy to reduce the impact of these types of events. Hi=
+ghly available systems can recover from server or component failure automat=
+ically.</span></span></span></p>
+<p><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><s=
+pan style=3D"color: rgb(0,0,0);"><br></span></span></span></p>
+<h3 id=3D"DisasterRecoveryandHighAvailability-Howtoachievehighavailability"=
+><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><spa=
+n style=3D"color: rgb(0,0,0);">How to achieve high availability</span></spa=
+n></span></h3>
+<p><span style=3D"color: rgb(0,0,0);">One of the goals of high availability=
+ is to eliminate single points of failure in your infrastructure. A single =
+point of failure is a component of your technology stack that would cause a=
+ service interruption if it became unavailable. As such, any component that=
+ is a requisite for the proper functionality of your application that does =
+not have redundancy is considered to be a single point of failure.</span></=
+p>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p>
+<p style=3D"margin-left: auto;">To eliminate single points of failure, each=
+ layer of your stack must be prepared for redundancy. For instance, imagine=
+ you have an infrastructure consisting of two identical, redundant web serv=
+ers behind a load balancer. The traffic coming from clients will be equally=
+ distributed between the web servers, but if one of the servers goes down, =
+the load balancer will redirect all traffic to the remaining online server.=
+</p>
+<p style=3D"margin-left: auto;">In the above scenario, if the load balancer=
+ itself goes offline, then we don't have an option.&nbsp;<span style=3D"col=
+or: rgb(0,0,0);">Redundancy alone cannot guarantee high availability. A mec=
+hanism must be in place for detecting failures and taking action when one o=
+f the components of your stack becomes unavailable.</span></p>
+<p><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);">Fa=
+ilure detection and recovery for redundant systems can be implemented using=
+ a top-to-bottom approach: the layer on top becomes responsible for monitor=
+ing the layer immediately beneath it for failures. In our previous example =
+scenario, the load balancer is the top layer. If one of the web servers (bo=
+ttom layer) becomes unavailable, the load balancer will stop redirecting re=
+quests for that specific server.&nbsp;</span></span></p>
+<p style=3D"margin-left: auto;">This approach tends to be simpler, but it h=
+as limitations: there will be a point in your infrastructure where a top la=
+yer is either nonexistent or out of reach, which is the case with the load =
+balancer layer. Creating a failure detection service for the load balancer =
+in an external server would simply create a new single point of failure.</p=
+>
+<p style=3D"margin-left: auto;">&nbsp;</p>
+<h3 style=3D"margin-left: auto;" id=3D"DisasterRecoveryandHighAvailability-=
+Distributedapproach">Distributed approach&nbsp;&nbsp;</h3>
+<p>With such a scenario, a distributed approach is necessary. Multiple redu=
+ndant nodes must be connected together as a cluster where each node should =
+be equally capable of failure detection and recovery. This approach still h=
+as some limitations which can be solved by using floating IP's.</p>
+<p>&nbsp;</p>
+<h3 id=3D"DisasterRecoveryandHighAvailability-Systemcomponentsrequiredforhi=
+ghavailability">System components required for high availability</h3>
+<p style=3D"margin-left: auto;">There are several components that must be c=
+arefully taken into consideration for implementing high availability in pra=
+ctice. Much more than a software implementation, high availability depends =
+on factors such as:</p>
+<ul>
+<li><span>Environment:</span>&nbsp;if all your servers are located in the s=
+ame geographical area, an environmental condition such as an earthquake or =
+flooding could take your whole system down. Having redundant servers in dif=
+ferent datacenters and geographical areas will increase reliability.</li>
+<li><span>Hardware:</span>&nbsp;highly available servers should be resilien=
+t to power outages and hardware failures, including hard disks and network =
+interfaces.</li>
+<li><span>Software:</span>&nbsp;the whole software stack, including the ope=
+rating system and the application itself, must be prepared for handling une=
+xpected failure that could potentially require a system restart, for instan=
+ce.</li>
+<li><span>Data:</span>&nbsp;data loss and inconsistency can be caused by se=
+veral factors, and it's not restricted to hard disk failures. Highly availa=
+ble systems must account for data safety in the event of a failure.</li>
+<li><span>Network:</span>&nbsp;unplanned network outages represent another =
+possible point of failure for highly available systems. It is important tha=
+t a redundant network strategy is in place for possible failures.</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id=3D"DisasterRecoveryandHighAvailability-WhatSoftwareCanBeUsedtoConfig=
+ureHighAvailability?">What Software Can Be Used to Configure High Availabil=
+ity?</h3>
+<p>Each layer of a highly available system will have different needs in ter=
+ms of software and configuration. However, at the application level, load b=
+alancers represent an essential piece of software for creating any high ava=
+ilability setup.</p>
+<p><a href=3D"https://www.digitalocean.com/community/tutorials/an-introduct=
+ion-to-haproxy-and-load-balancing-concepts" class=3D"external-link" rel=3D"=
+nofollow">HAProxy</a>&nbsp;(High Availability Proxy) is a common choice for=
+ load balancing, as it can handle load balancing at multiple layers, and fo=
+r different kinds of servers, including&nbsp;<a href=3D"https://www.digital=
+ocean.com/community/tutorials/how-to-use-haproxy-to-set-up-mysql-load-balan=
+cing--3" class=3D"external-link" rel=3D"nofollow">database servers</a>.</p>
+<p>Moving up in the system stack, it is important to implement a reliable r=
+edundant solution for your application entry point, normally the load balan=
+cer. To remove this single point of failure, as mentioned before, we need t=
+o implement a cluster of load balancers behind a Floating IP. Corosync and =
+Pacemaker are popular choices for creating such a setup, on both&nbsp;<a hr=
+ef=3D"https://www.digitalocean.com/community/tutorials/how-to-create-a-high=
+-availability-setup-with-corosync-pacemaker-and-floating-ips-on-ubuntu-14-0=
+4" class=3D"external-link" rel=3D"nofollow">Ubuntu</a>&nbsp;and&nbsp;<a hre=
+f=3D"https://www.digitalocean.com/community/tutorials/how-to-create-a-high-=
+availability-setup-with-pacemaker-corosync-and-floating-ips-on-centos-7" cl=
+ass=3D"external-link" rel=3D"nofollow">CentOS</a>&nbsp;servers.</p>
+<h3 style=3D"margin-left: auto;" id=3D"DisasterRecoveryandHighAvailability-=
+References:">References:</h3>
+<ul>
+<li><strong><a href=3D"http://shorty/dr" class=3D"external-link" rel=3D"nof=
+ollow">http://shorty/dr</a>&nbsp;</strong>(direct link:&nbsp;<a href=3D"htt=
+ps://teamhub/sites/BCP/DisasterRecovery/SitePages/DISASTER%20RECOVERY.aspx"=
+ class=3D"external-link" rel=3D"nofollow">https://teamhub/sites/BCP/Disaste=
+rRecovery/SitePages/DISASTER%20RECOVERY.aspx</a>)</li>
+<li><a href=3D"https://www.digitalocean.com/community/tutorials/what-is-hig=
+h-availability" class=3D"external-link" rel=3D"nofollow">https://www.digita=
+locean.com/community/tutorials/what-is-high-availability</a></li>
+<li><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><=
+a href=3D"http://searchdatacenter.techtarget.com/definition/high-availabili=
+ty" class=3D"external-link" rel=3D"nofollow">http://searchdatacenter.techta=
+rget.com/definition/high-availability</a></span></span></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(0,0,0);"><b=
+r></span></span></p>
+    </div>
+</body>
+</html>
+------=_Part_70_963672594.1641223602689--

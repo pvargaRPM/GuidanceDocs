@@ -1,0 +1,470 @@
+Message-ID: <414532143.29.1641223466449.JavaMail.confluence@ql2confluence1.mi.corp.rockfin.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_28_633403794.1641223466448"
+
+------=_Part_28_633403794.1641223466448
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Coding Guidance</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Coding Guidance</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p><strong><u>(back to&nbsp;<a href=3D"https://confluence/pages/viewpage.ac=
+tion?pageId=3D55393319" rel=3D"nofollow">QDLC</a>)</u></strong></p>
+<p><strong><br></strong></p>
+<h3 id=3D"CodingGuidance-Pre-requisite"><strong>Pre-requisite</strong></h3>
+<p><a href=3D"https://confluence/display/QAPOW/Design?src=3Dcontextnavpaget=
+reemode" rel=3D"nofollow">Design</a></p>
+<p>&nbsp;</p>
+<h3 id=3D"CodingGuidance-Why?"><strong>Why?</strong></h3>
+<p>This stage produces the code that turns client requirements and features=
+, into working applications and the automated tests that ensure the applica=
+tions are working as expected.</p>
+<p>&nbsp;</p>
+<h3 id=3D"CodingGuidance-How?"><strong>How?</strong></h3>
+<p>Create code and automation code&nbsp;</p>
+<p>Have your peers review your code prior to being committed.&nbsp;</p>
+<p>During the sprint, teams will be coding for the application, and buildin=
+g up the functionality and automated test suite for the application.</p>
+<p>&nbsp;</p>
+<p>Process: Code &gt; Perform Code Analysis &gt; Perform Code Reviews &gt; =
+Add Automated Tests</p>
+<h3 id=3D"CodingGuidance-QualityGates"><strong>Quality Gates</strong></h3>
+<ul>
+<li>Code Analysis</li>
+<li>Code Review&nbsp;conducted</li>
+<li>Security Code Review conducted (if applicable)<br><br></li>
+</ul>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"CodingGuidance-CodingStandards+Guidance"><strong>Coding Standards=
+ + Guidance</strong></h1>
+<p><a href=3D"/display/QAPOW/Unit+Testing">Unit Testing</a></p>
+<p><a href=3D"https://confluence/pages/viewpage.action?pageId=3D58403564" r=
+el=3D"nofollow">System &amp; Integration Testing</a></p>
+<p><a href=3D"https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-=
+and-Merging" class=3D"external-link" rel=3D"nofollow">GIT: Merging &amp; Br=
+anching Strategies</a></p>
+<p><a href=3D"https://confluence/display/AS/%5BArchitecture%5D+Guidelines+f=
+or+Software+and+Data+Engineers" rel=3D"nofollow">Guidelines for Software an=
+d Date Engineers</a></p>
+<p><a href=3D"https://confluence/pages/viewpage.action?pageId=3D39026787" r=
+el=3D"nofollow">Security: HMAC: How To</a></p>
+<p><a class=3D"unresolved" href=3D"#">SOLID Design Principles</a></p>
+<p><u><a style=3D"text-decoration: underline;" href=3D"https://confluence/d=
+isplay/SCC/Cloud+Architecture+Patterns?src=3Dcontextnavpagetreemode" rel=3D=
+"nofollow">Cloud Architecture Patterns</a></u></p>
+<p><a href=3D"/display/QAPOWArchive/Code+Commenting+Guidance">Code Commenti=
+ng Guidance</a></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"CodingGuidance-CodeAnalysis"><strong>Code Analysis</strong></h1>
+<h3 id=3D"CodingGuidance-StaticCodeAnalysis">Static Code Analysis</h3>
+<p>Static Analysis is the&nbsp;<a class=3D"external-link" title=3D"Program =
+analysis (computer science)" href=3D"http://en.wikipedia.org/wiki/Program_a=
+nalysis_(computer_science)" rel=3D"nofollow">analysis of computer software<=
+/a>&nbsp;that is performed without actually executing programs (analysis pe=
+rformed on executing programs is known as&nbsp;<a title=3D"Dynamic program =
+analysis" href=3D"http://en.wikipedia.org/wiki/Dynamic_program_analysis" cl=
+ass=3D"external-link" rel=3D"nofollow">dynamic analysis</a>).In most cases =
+the analysis is performed on some version of the&nbsp;<a title=3D"Source co=
+de" href=3D"http://en.wikipedia.org/wiki/Source_code" class=3D"external-lin=
+k" rel=3D"nofollow">source code</a>, and in the other cases, some form of t=
+he&nbsp;<a title=3D"Object code" href=3D"http://en.wikipedia.org/wiki/Objec=
+t_code" class=3D"external-link" rel=3D"nofollow">object code</a>. The term =
+is usually applied to the analysis performed by an&nbsp;<a title=3D"List of=
+ tools for static code analysis" href=3D"http://en.wikipedia.org/wiki/List_=
+of_tools_for_static_code_analysis" class=3D"external-link" rel=3D"nofollow"=
+>automated tool</a>, with human analysis being called program understanding=
+,&nbsp;<a title=3D"Program comprehension" href=3D"http://en.wikipedia.org/w=
+iki/Program_comprehension" class=3D"external-link" rel=3D"nofollow">program=
+ comprehension</a>&nbsp;or&nbsp;<a title=3D"Code review" href=3D"http://en.=
+wikipedia.org/wiki/Code_review" class=3D"external-link" rel=3D"nofollow">co=
+de review</a>.</p>
+<p>Examples:&nbsp;</p>
+<ul>
+<li><a href=3D"http://sonar/" class=3D"external-link" rel=3D"nofollow">Sona=
+rQube</a>&nbsp;has been identified as an automatic static analysis tool tha=
+t has been put in place for our teams to use. Teams will need to work with =
+QAPOW and the KeyMasters to configure their source code repositories to be =
+statically analyzed on a regular basis.</li>
+<li>PHPCS / PDepend / PHPMD /&nbsp;<a href=3D"http://hacklang.org/" class=
+=3D"external-link" rel=3D"nofollow">Hack</a>&nbsp;(PHP)</li>
+<li>Dialyzer (Erlang)</li>
+<li><a href=3D"https://code.facebook.com/posts/1505962329687926/flow-a-new-=
+static-type-checker-for-javascript/" class=3D"external-link" rel=3D"nofollo=
+w">Flow</a>&nbsp;(JavaScript)</li>
+</ul>
+<h3 id=3D"CodingGuidance-DynamicCodeAnalysis">Dynamic Code Analysis</h3>
+<p><span style=3D"color: rgb(0,51,102);">Dynamic code analysis&nbsp;relies =
+on studying how the code behaves during execution.&nbsp;Dynamic code review=
+ has the ability to find security issues caused by the code's interaction w=
+ith other system components like SQL databases, application servers or Web =
+services. It must be performed by a tool that can understand the language t=
+he application is written in.&nbsp;</span></p>
+<p><span style=3D"color: rgb(0,51,102);">List of <a href=3D"https://www.pee=
+rlyst.com/posts/resource-a-list-of-dynamic-analysis-tools-for-software-susa=
+n-parker" class=3D"external-link" rel=3D"nofollow">tools</a> that can be us=
+ed for Dynamic Code Analysis</span></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"CodingGuidance-CodeReview"><strong>Code Review</strong></h1>
+<p>Code Reviews are a critical development practice, which helps to maintai=
+n the greatest levels of software quality. It is&nbsp;not just about findin=
+g defects/issues with code, it helps transfer knowledge and team communicat=
+ion/collaboration.</p>
+<p>After a developer is done with their changes for a particular story/feat=
+ure, they get it reviewed by another team on the team or anyone else that k=
+nows that code well. The reviewer reviews code and makes sure the code has =
+been written following standards and guidelines and also that the changes d=
+o not have any unintended consequences. If the reviewer finds any problems,=
+ the developer makes those changes. Code review is a very important process=
+ and makes sure every line of code change has been looked at and approved b=
+y someone else.&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"CodingGuidance-CodingforAutomatedTesting"><strong>Coding for Auto=
+mated Testing</strong></h1>
+<p>Teams will begin creating various types of automated tests: Unit, databa=
+se, integration, performance, security, etc.</p>
+<p>&nbsp;</p>
+<p>Automated software testing is important due to following reasons:&nbsp;<=
+/p>
+<ul class=3D"checklist" style=3D"margin-left: 20.0px;">
+<li>Manual Testing of all work flows, all fields, including all negative sc=
+enarios&nbsp;can be time and cost consuming</li>
+<li>Automation increases speed of test execution</li>
+<li>Automation helps increase Test Coverage</li>
+<li>Manual Testing can become boring and hence error prone</li>
+<li>Once the test suite is automated, no human intervention is required. Te=
+am members can also run automated tests unattended (overnight)</li>
+<li><p>Successive development cycles will also require execution of the sam=
+e test suites repeatedly</p></li>
+</ul>
+<p>The "Goal of Automation" is to reduce number of test cases to be run man=
+ually, not eliminate manual testing all together; however, it does free up =
+our team members to focus each sprint on ensuring new features, and more ex=
+ploratory testing, (and not spending time on repeating manual regression te=
+sting each and every sprint).</p>
+<h3 id=3D"CodingGuidance-WhichTestCasestoAutomate?">Which Test Cases to Aut=
+omate?</h3>
+<p>Test cases to be automated can be selected using the following criterion=
+:</p>
+<ul class=3D"checklist" style=3D"margin-left: 20.0px;">
+<li>High Risk - Business Critical test cases</li>
+<li>Test cases that are executed repeatedly</li>
+<li>Test Cases that are very tedious or difficult to perform manually</li>
+<li>Test Cases which are time consuming</li>
+</ul>
+<p>&nbsp;</p>
+<p>The following category of test cases are not suitable for automation:</p=
+>
+<ul class=3D"checklist" style=3D"margin-left: 20.0px;">
+<li>Test Cases that are newly designed and not executed manually (at least =
+once, for understanding + ensuring correctly implemented functionality)</li=
+>
+<li>Test Cases for which the requirements are changing frequently</li>
+<li>Test cases which are executed on ad-hoc basis</li>
+<li>Test cases that have difficult data scenarios (set-up / clean-up)</li>
+</ul>
+<p>More automation resources are available <a href=3D"https://confluence/di=
+splay/IC/Automation+Resources" rel=3D"nofollow">here</a></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p><style>
+#content h1 {
+=09#padding: .5em;
+    text-align: center;
+=09background: #b1d7f0;
+=09}
+
+#content h3 {
+=09padding: .5em;
+    text-align: left;
+=09background: #1F618D;
+=09border-size: .1em;
+=09color: white
+=09}
+</style></p>
+</div>=20
+</div>=20
+</div>=20
+</div>
+    </div>
+</body>
+</html>
+------=_Part_28_633403794.1641223466448--

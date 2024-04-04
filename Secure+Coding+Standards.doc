@@ -1,0 +1,1784 @@
+Message-ID: <1438108475.35.1641223486771.JavaMail.confluence@ql2confluence1.mi.corp.rockfin.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_34_1232209637.1641223486770"
+
+------=_Part_34_1232209637.1641223486770
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Secure Coding Standards</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Secure Coding Standards</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>This space is dedicated to providing guidance, considerations, and proce=
+sses to teams when considering coding securely.</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"SecureCodingStandards-AdditionalInformation:">Additional Informat=
+ion<strong>:</strong>&nbsp;</h1>
+<h1 id=3D"SecureCodingStandards-SecurityCodeReviews//Non-FunctionalRequirem=
+ents//"><a href=3D"https://confluence/display/QAPOW/Security+Code+Reviews" =
+style=3D"font-size: 24.0px;line-height: 1.25;" rel=3D"nofollow">Security Co=
+de Reviews</a>&nbsp;//&nbsp;<a style=3D"font-size: 24.0px;line-height: 1.25=
+;" href=3D"https://confluence/display/NFRS/Non-Functional+Requirements" rel=
+=3D"nofollow">Non-Functional Requirements</a>&nbsp;//&nbsp;<a href=3D"/page=
+s/viewpage.action?pageId=3D39026787">How do I HMAC?</a></h1>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<div class=3D"page" style=3D"text-align: center;">
+<div class=3D"textLayer">
+<h1 style=3D"text-align: left;" id=3D"SecureCodingStandards-SECURITYCONSIDE=
+RATIONS:">SECURITY CONSIDERATIONS:</h1>
+<p style=3D"text-align: left;">Original Source Material from CERT:&nbsp;<a =
+href=3D"https://www.securecoding.cert.org/confluence/display/seccode/Top+10=
++Secure+Coding+Practices" class=3D"external-link" rel=3D"nofollow">https://=
+www.securecoding.cert.org/confluence/display/seccode/Top+10+Secure+Coding+P=
+ractices</a>&nbsp;&nbsp;</p>
+<p style=3D"text-align: left;">&nbsp;</p>
+<div style=3D"text-align: left;">
+Once the basic threat agents and business impacts are understood, the revie=
+w team should try to identify the set of&nbsp;controls that could prevent t=
+hese threat agents from causing those impacts. The primary focus of the&nbs=
+p;code review should&nbsp;be to ensure that these security controls are in =
+place, that they work properly, and that they are correctly invoked in all =
+the&nbsp;necessary places. The checklist below can help to ensure that all =
+the likely risks have been considered.
+</div>
+<h2 style=3D"text-align: left;" id=3D"SecureCodingStandards-Authentication:=
+">Authentication:</h2>
+<div style=3D"text-align: left;">
+Ensure all internal and external connections (user&nbsp;and entity) go thro=
+ugh an appropriate and adequate&nbsp;form of&nbsp;authentication. Be assure=
+d that this control cannot&nbsp;be bypassed.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure all pages enforce the requirement for authentication.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure that whenever authentication credentials or&nbsp;any =
+other sensitive information is passed, only accept the&nbsp;information via=
+ the HTTP =E2=80=9CPOST=E2=80=9D method and will not&nbsp;accept it via the=
+ HTTP =E2=80=9CGET=E2=80=9D method.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Any page deemed by the business or the development&nbsp;team=
+ as being outside the scope of authentication should&nbsp;be reviewed in or=
+der to assess any possibility of security breach.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure that authentication credentials do not traverse the w=
+ire in clear text form.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure development/debug backdoors are not present&nbsp;in p=
+roduction code.
+</div>
+</div>
+<h2 class=3D"annotationLayer" style=3D"text-align: left;" id=3D"SecureCodin=
+gStandards-Authorization:">Authorization:</h2>
+</div>
+<div class=3D"page" style=3D"text-align: left;">
+<div class=3D"textLayer">
+<div>
+=E2=80=A2&nbsp;Ensure that there are authorization mechanisms in place.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure that the application has clearly defined the&nbsp;use=
+r types and the rights of said users.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure there is a least privilege stance in operation.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure that the Authorization mechanisms work properly, fail=
+ securely, and cannot be circumvented.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure that authorization is checked on every request.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure development/debug backdoors are not present&nbsp;in p=
+roduction code.
+</div>
+<h2 id=3D"SecureCodingStandards-CookieManagement:">Cookie Management:</h2>
+<div>
+=E2=80=A2&nbsp;Ensure that sensitive information is not comprised.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure that unauthorized activities cannot take place via co=
+okie manipulation.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure that proper encryption is in use.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure secure flag is set to prevent accidental transmission=
+ over =E2=80=9Cthe wire=E2=80=9D in a non-secure manner.
+</div>
+<div>
+=E2=80=A2&nbsp;Determine if all state transitions in the application code p=
+roperly check for the cookies and enforce&nbsp;their use.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure the session data is being validated.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure cookie contains as little private information as poss=
+ible.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure entire cookie should be encrypted if sensitive data i=
+s persisted in the cookie.
+</div>
+<div>
+=E2=80=A2&nbsp;Define all cookies being used by the application, their name=
+ and why they are needed.
+</div>
+<h2 id=3D"SecureCodingStandards-Data/InputValidation:">Data/Input Validatio=
+n:</h2>
+<div>
+=E2=80=A2&nbsp;Ensure that a DV mechanism is present.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure all input that can (and will) be modified by&nbsp;a m=
+alicious user such as http headers, input fields, hidden fields,&nbsp;drop =
+down lists &amp; other web components are properly&nbsp;validated.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure that the proper length checks on all input exist.&nbs=
+p;
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure that all fields, cookies, http headers/bodies &amp; f=
+orm fields are validated.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure that the data is well formed and contains only known =
+good chars is possible.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure that the data validation occurs on the server side.
+</div>
+<div>
+=E2=80=A2&nbsp;Examine where data validation occurs and if a centralized mo=
+del or decentralized model is used.&nbsp;
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure there are no backdoors in the data validation model.
+</div>
+<div>
+=E2=80=A2&nbsp;Golden Rule: All external input, no matter what it&nbsp;is, =
+is examined and validated.
+</div>
+<h2 id=3D"SecureCodingStandards-ErrorHandling/InformationLeakage:">Error Ha=
+ndling/Information Leakage:</h2>
+<div>
+=E2=80=A2&nbsp;Ensure that all method/function calls that return a&nbsp;val=
+ue have proper error handling and return value&nbsp;checking.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure that exceptions and error conditions are properly han=
+dled.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure that no system errors can be returned to the&nbsp;use=
+r.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure that the application fails in a secure manner.
+</div>
+<div>
+=E2=80=A2&nbsp;Ensure resources are released if an error occurs.
+</div>
+</div>
+</div>
+<div class=3D"page" style=3D"text-align: center;">
+<div class=3D"textLayer">
+<h2 style=3D"text-align: left;" id=3D"SecureCodingStandards-Logging/Auditin=
+g:">Logging/Auditing:</h2>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure that no sensitive information is logged in the event =
+of an error.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure the payload being logged is of a defined maximum leng=
+th and that the logging mechanism enforces&nbsp;that&nbsp;length.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure no sensitive data can be logged; E.g. cookies, HTTP =
+=E2=80=9CGET=E2=80=9D method, authentication credentials.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Examine if the application will audit the actions being take=
+n by the application on behalf of the client (particularly&nbsp;data manipu=
+lation/Create, Update, Delete (CUD) operations).
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure successful and unsuccessful authentication is logged.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure application errors are logged.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Examine the application for debug logging with the&nbsp;view=
+ to logging of sensitive data.
+</div>
+<h2 style=3D"text-align: left;" id=3D"SecureCodingStandards-Cryptography:">=
+Cryptography:</h2>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure no sensitive data is transmitted in the clear, intern=
+ally or externally.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure the application is implementing known good cryptograp=
+hic methods.
+</div>
+<h2 style=3D"text-align: left;" id=3D"SecureCodingStandards-SecureCodeEnvir=
+onment:">Secure Code Environment:</h2>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Examine the file structure. Are any components that&nbsp;sho=
+uld not be directly accessible available to the&nbsp;user?
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Examine all memory allocations/de-allocations.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Examine the application for dynamic SQL and determine if it =
+is vulnerable to injection.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Examine the application for =E2=80=9Cmain()=E2=80=9D executa=
+ble functions and debug harnesses/backdoors
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Search for commented out code, commented out test code, whic=
+h may contain sensitive information.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure all logical decisions have a default clause.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Ensure no development environment kit is contained&nbsp;on t=
+he build directories.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Search for any calls to the underlying operating system or f=
+ile open calls and examine the error possibilities.
+</div>
+<h2 style=3D"text-align: left;" id=3D"SecureCodingStandards-SessionManageme=
+nt:">Session Management:</h2>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Examine how and when a session is created for a user, unauth=
+enticated and authenticated.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Examine the session ID and verify if it is complex&nbsp;enou=
+gh to fulfill requirements regarding strength.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Examine how sessions are stored: e.g. in a database, in memo=
+ry etc.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Examine how the application tracks sessions.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Determine the actions the application takes if an invalid se=
+ssion ID occurs.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Examine session invalidation.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Determine how multithreaded/multi-user session management is=
+ performed.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Determine the session HTTP inactivity timeout.
+</div>
+<div style=3D"text-align: left;">
+=E2=80=A2&nbsp;Determine how the log-out functionality functions.
+</div>
+</div>
+</div>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h2 id=3D"SecureCodingStandards-Top10SecureCodingPractices">Top 10 Secure C=
+oding Practices</h2>
+<ol>
+<li><span class=3D"confluence-anchor-link">&nbsp;</span>&nbsp;<strong>Valid=
+ate input.</strong>&nbsp;Validate input from all untrusted data sources. Pr=
+oper input validation can eliminate the vast majority of software&nbsp;<a h=
+ref=3D"https://www.securecoding.cert.org/confluence/display/c/BB.+Definitio=
+ns#BB.Definitions-vulnerability" class=3D"external-link" rel=3D"nofollow">v=
+ulnerabilities</a>. Be suspicious of most external data sources, including =
+command line arguments, network interfaces, environmental variables, and us=
+er controlled files .</li>
+<li><span class=3D"confluence-anchor-link">&nbsp;</span>&nbsp;<strong>Heed =
+compiler warnings.</strong>&nbsp;Compile code using the highest warning lev=
+el available for your compiler and eliminate warnings by modifying the code=
+ [<a href=3D"https://www.securecoding.cert.org/confluence/display/c/MSC00-C=
+.+Compile+cleanly+at+high+warning+levels" class=3D"external-link" rel=3D"no=
+follow">C MSC00-A</a>,<a href=3D"https://www.securecoding.cert.org/confluen=
+ce/display/cplusplus/VOID+Compile+cleanly+at+high+warning+levels" class=3D"=
+external-link" rel=3D"nofollow">C++ MSC00-A</a>]. Use static and dynamic an=
+alysis tools to detect and eliminate additional security flaws.</li>
+<li><span class=3D"confluence-anchor-link">&nbsp;</span>&nbsp;<strong>Archi=
+tect and design for security policies.</strong>&nbsp;Create a software arch=
+itecture and design your software to implement and enforce security policie=
+s. For example, if your system requires different privileges at different t=
+imes, consider dividing the system into distinct intercommunicating subsyst=
+ems, each with an appropriate privilege set.</li>
+<li><span class=3D"confluence-anchor-link">&nbsp;</span>&nbsp;<strong>Keep =
+it simple.</strong>&nbsp;Keep the design as simple and small as possible. C=
+omplex designs increase the likelihood that errors will be made in their im=
+plementation, configuration, and use. Additionally, the effort required to =
+achieve an appropriate level of assurance increases dramatically as securit=
+y mechanisms become more complex.</li>
+<li><span class=3D"confluence-anchor-link">&nbsp;</span>&nbsp;<strong>Defau=
+lt deny.</strong>&nbsp;Base access decisions on permission rather than excl=
+usion. This means that, by default, access is denied and the protection sch=
+eme identifies conditions under which access is permitted</li>
+<li><span class=3D"confluence-anchor-link">&nbsp;</span>&nbsp;<strong>Adher=
+e to the principle of least privilege.</strong>&nbsp;Every process should e=
+xecute with the the least set of privileges necessary to complete the job. =
+Any elevated permission should be held for a minimum time. This approach re=
+duces the opportunities an attacker has to execute arbitrary code with elev=
+ated privileges</li>
+<li><span class=3D"confluence-anchor-link">&nbsp;</span>&nbsp;<strong>Sanit=
+ize data sent to other systems.</strong>&nbsp;Sanitize all data passed to c=
+omplex subsystems [<a href=3D"https://www.securecoding.cert.org/confluence/=
+display/c/STR02-C.+Sanitize+data+passed+to+complex+subsystems" class=3D"ext=
+ernal-link" rel=3D"nofollow">C STR02-A</a>] such as command shells, relatio=
+nal databases, and commercial off-the-shelf (COTS) components. Attackers ma=
+y be able to invoke unused functionality in these components through the us=
+e of SQL, command, or other injection attacks. This is not necessarily an i=
+nput validation problem because the complex subsystem being invoked does no=
+t understand the context in which the call is made. Because the calling pro=
+cess understands the context, it is responsible for sanitizing the data bef=
+ore invoking the subsystem.</li>
+<li><span class=3D"confluence-anchor-link">&nbsp;</span>&nbsp;<strong>Pract=
+ice</strong>&nbsp;<strong>defense in depth.</strong>&nbsp;Manage risk with =
+multiple defensive strategies, so that if one layer of defense turns out to=
+ be inadequate, another layer of defense can prevent a&nbsp;<a href=3D"http=
+s://www.securecoding.cert.org/confluence/display/c/BB.+Definitions#BB.Defin=
+itions-securityflaw" class=3D"external-link" rel=3D"nofollow">security flaw=
+</a>&nbsp;from becoming an exploitable vulnerability and/or limit the conse=
+quences of a successful&nbsp;<a href=3D"https://www.securecoding.cert.org/c=
+onfluence/display/c/BB.+Definitions#BB.Definitions-exploit" class=3D"extern=
+al-link" rel=3D"nofollow">exploit</a>. For example, combining secure progra=
+mming techniques with secure runtime environments should reduce the likelih=
+ood that vulnerabilities remaining in the code at deployment time can be ex=
+ploited in the operational environment .</li>
+<li><span class=3D"confluence-anchor-link">&nbsp;</span>&nbsp;<strong>Use e=
+ffective quality assurance techniques.</strong>&nbsp;Good quality assurance=
+ techniques can be effective in identifying and eliminating vulnerabilities=
+. Fuzz testing, penetration testing, and source code audits should all be i=
+ncorporated as part of an effective quality assurance program. Independent =
+security reviews can lead to more secure systems. External reviewers bring =
+an independent perspective; for example, in identifying and correcting inva=
+lid assumptions .</li>
+<li><span class=3D"confluence-anchor-link">&nbsp;</span><strong>Adopt a sec=
+ure coding standard.</strong>&nbsp;Develop and/or apply a secure coding sta=
+ndard for your target development language and platform.</li>
+</ol>
+<h2 id=3D"SecureCodingStandards-BonusSecureCodingPractices">Bonus Secure Co=
+ding Practices</h2>
+<ol>
+<li><span class=3D"confluence-anchor-link">&nbsp;</span>&nbsp;<strong>Defin=
+e security requirements.</strong>&nbsp;Identify and document security requi=
+rements early in the development life cycle and make sure that subsequent d=
+evelopment artifacts are evaluated for compliance with those requirements. =
+When security requirements are not defined, the security of the resulting s=
+ystem cannot be effectively evaluated.</li>
+<li><span class=3D"confluence-anchor-link">&nbsp;</span>&nbsp;<strong>Model=
+ threats.</strong>&nbsp;Use threat modeling to anticipate the threats to wh=
+ich the software will be subjected. Threat modeling involves identifying ke=
+y assets, decomposing the application, identifying and categorizing the thr=
+eats to each asset or component, rating the threats based on a risk ranking=
+, and then developing threat&nbsp;<a href=3D"https://www.securecoding.cert.=
+org/confluence/display/c/BB.+Definitions#BB.Definitions-mitigation" class=
+=3D"external-link" rel=3D"nofollow">mitigation</a>&nbsp;strategies that are=
+ implemented in designs, code, and test cases.</li>
+</ol>
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout two-equal" data-layout=3D"two-equal">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h2 id=3D"SecureCodingStandards-BonusPhotograph">Bonus Photograph</h2>
+<p>I like this photograph because it illustrates how the easiest way to bre=
+ak system security is often to circumvent it rather than defeat it (as is t=
+he case with most software vulnerabilities related to insecure coding pract=
+ices).</p>
+<p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=
+al-size"><img class=3D"confluence-embedded-image" height=3D"431" src=3D"c1f=
+7e4d60ccc0866deb6611db6dc88c4" data-image-src=3D"/download/attachments/5068=
+4651/securityaround.jpg?version=3D1&amp;modificationDate=3D1556556438000&am=
+p;api=3Dv2" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"=
+146440783" data-linked-resource-version=3D"1" data-linked-resource-type=3D"=
+attachment" data-linked-resource-default-alias=3D"securityaround.jpg" data-=
+base-url=3D"https://confluence" data-linked-resource-content-type=3D"image/=
+jpeg" data-linked-resource-container-id=3D"50684651" data-linked-resource-c=
+ontainer-version=3D"7" width=3D"468"></span></p>
+</div>=20
+</div>=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p> </p>
+<div class=3D"plugin_attachments_container">=20
+<div class=3D"plugin_attachments_table_container">=20
+<fieldset class=3D"hidden">=20
+<input type=3D"hidden" class=3D"plugin_attachments_macro_render_param" name=
+=3D"pageId" value=3D"50684651">=20
+<input type=3D"hidden" name=3D"deleteConfirmMessage" value=3D"Are you sure =
+you want to send the attached file " {0}" to the trash? only a space admini=
+strator can undo this action.">=20
+<input type=3D"hidden" name=3D"outputType" value=3D"word">=20
+</fieldset>=20
+<table class=3D"attachments aui">=20
+<thead>=20
+<tr>=20
+<th class=3D"expand-column attachment-summary-toggle">&nbsp;</th>=20
+<th class=3D"filename-column"> <a href=3D"/display/QAPOW/Secure+Coding+Stan=
+dards?sortBy=3Dname&amp;sortOrder=3Dascending">File</a> </th>=20
+<th class=3D"modified-column"> <span class=3D"propersortedby $sortOrder"><a=
+ href=3D"/display/QAPOW/Secure+Coding+Standards?sortBy=3Ddate&amp;sortOrder=
+=3Ddescending">Modified</a></span> </th>=20
+</tr>=20
+</thead>=20
+<tbody>=20
+<tr id=3D"attachment-54481414" class=3D"attachment-row" data-attachment-id=
+=3D"54481414" data-attachment-idx=3D"1">=20
+<td class=3D"attachment-summary-toggle"> <span class=3D"icon icon-section-c=
+losed" title=3D"Show more info"></span> </td>=20
+<td class=3D"filename-column"> <span class=3D"aui-icon content-type-attachm=
+ent-pdf" title=3D"PDF File">PDF File</span> <a class=3D"filename" href=3D"/=
+download/attachments/50684651/19-Attacks-Breaking-Applications.pdf?api=3Dv2=
+" title=3D"Download" data-filename=3D"19-Attacks-Breaking-Applications.pdf"=
+ data-type=3D"application/pdf" data-linked-resource-container-id=3D"5068465=
+1"> 19-Attacks-Breaking-Applications.pdf </a> </td>=20
+<td class=3D"attachment-created modified-column"> <span>Sep 26, 2016</span>=
+ <span>by</span> <a href=3D"    /display/~PVarga
+" class=3D"url fn confluence-userlink" data-username=3D"PVarga">Peter Varga=
+</a> </td>=20
+</tr>=20
+<tr class=3D"attachment-summary attachment-summary-54481414 hidden" data-at=
+tachment-id=3D"54481414" data-attachment-filename=3D"19-Attacks-Breaking-Ap=
+plications.pdf">=20
+<td class=3D"attachment-summary-toggle"></td>=20
+<td class=3D"attachment-details-wrapper" colspan=3D"2">=20
+<div class=3D"attachment-image-preview"></div> <p class=3D"attachment-label=
+s">Labels</p>=20
+<div class=3D"labels-section-content content-column" entityid=3D"54481414" =
+entitytype=3D"attachment">=20
+<div class=3D"labels-content">=20
+<ul class=3D"label-list  has-pen">=20
+<li class=3D"no-labels-message"> No labels </li>=20
+<li class=3D"labels-edit-container"> <a href=3D"#" class=3D"show-labels-edi=
+tor" title=3D"Edit Labels"> <span class=3D"aui-icon aui-icon-small aui-icon=
+font-devtools-tag-small">Edit Labels</span> </a> </li>=20
+</ul>=20
+</div>=20
+</div>=20
+<div class=3D"attachment-history-wrapper"></div>=20
+<div class=3D"attachment-buttons">=20
+<a class=3D"aui-button previewAttachmentLink" data-filename=3D"19-Attacks-B=
+reaking-Applications.pdf" data-file-src=3D"/download/attachments/50684651/1=
+9-Attacks-Breaking-Applications.pdf?api=3Dv2" data-linked-resource-default-=
+alias=3D"19-Attacks-Breaking-Applications.pdf" data-mime-type=3D"applicatio=
+n/pdf" data-linked-resource-container-id=3D"50684651" data-linked-resource-=
+id=3D"54481414">Preview</a>=20
+<a class=3D"aui-button " href=3D"/pages/worddav/preview.action?fileName=3D1=
+9-Attacks-Breaking-Applications.pdf&amp;pageId=3D50684651">View</a>=20
+<a class=3D"aui-button editAttachmentLink" href=3D"/pages/editattachment.ac=
+tion?pageId=3D50684651&amp;fileName=3D19-Attacks-Breaking-Applications.pdf&=
+amp;isFromPageView=3Dtrue">Properties</a>=20
+<a class=3D"aui-button removeAttachmentLink" href=3D"/pages/confirmattachme=
+ntremoval.action?pageId=3D50684651&amp;fileName=3D19-Attacks-Breaking-Appli=
+cations.pdf">Delete</a>=20
+</div> </td>=20
+</tr>=20
+<tr id=3D"attachment-54481415" class=3D"attachment-row" data-attachment-id=
+=3D"54481415" data-attachment-idx=3D"2">=20
+<td class=3D"attachment-summary-toggle"> <span class=3D"icon icon-section-c=
+losed" title=3D"Show more info"></span> </td>=20
+<td class=3D"filename-column"> <span class=3D"aui-icon content-type-attachm=
+ent-pdf" title=3D"PDF File">PDF File</span> <a class=3D"filename" href=3D"/=
+download/attachments/50684651/how-to-conduct-code-review.pdf?api=3Dv2" titl=
+e=3D"Download" data-filename=3D"how-to-conduct-code-review.pdf" data-type=
+=3D"application/pdf" data-linked-resource-container-id=3D"50684651"> how-to=
+-conduct-code-review.pdf </a> </td>=20
+<td class=3D"attachment-created modified-column"> <span>Sep 26, 2016</span>=
+ <span>by</span> <a href=3D"    /display/~PVarga
+" class=3D"url fn confluence-userlink" data-username=3D"PVarga">Peter Varga=
+</a> </td>=20
+</tr>=20
+<tr class=3D"attachment-summary attachment-summary-54481415 hidden" data-at=
+tachment-id=3D"54481415" data-attachment-filename=3D"how-to-conduct-code-re=
+view.pdf">=20
+<td class=3D"attachment-summary-toggle"></td>=20
+<td class=3D"attachment-details-wrapper" colspan=3D"2">=20
+<div class=3D"attachment-image-preview"></div> <p class=3D"attachment-label=
+s">Labels</p>=20
+<div class=3D"labels-section-content content-column" entityid=3D"54481415" =
+entitytype=3D"attachment">=20
+<div class=3D"labels-content">=20
+<ul class=3D"label-list  has-pen">=20
+<li class=3D"no-labels-message"> No labels </li>=20
+<li class=3D"labels-edit-container"> <a href=3D"#" class=3D"show-labels-edi=
+tor" title=3D"Edit Labels"> <span class=3D"aui-icon aui-icon-small aui-icon=
+font-devtools-tag-small">Edit Labels</span> </a> </li>=20
+</ul>=20
+</div>=20
+</div>=20
+<div class=3D"attachment-history-wrapper"></div>=20
+<div class=3D"attachment-buttons">=20
+<a class=3D"aui-button previewAttachmentLink" data-filename=3D"how-to-condu=
+ct-code-review.pdf" data-file-src=3D"/download/attachments/50684651/how-to-=
+conduct-code-review.pdf?api=3Dv2" data-linked-resource-default-alias=3D"how=
+-to-conduct-code-review.pdf" data-mime-type=3D"application/pdf" data-linked=
+-resource-container-id=3D"50684651" data-linked-resource-id=3D"54481415">Pr=
+eview</a>=20
+<a class=3D"aui-button " href=3D"/pages/worddav/preview.action?fileName=3Dh=
+ow-to-conduct-code-review.pdf&amp;pageId=3D50684651">View</a>=20
+<a class=3D"aui-button editAttachmentLink" href=3D"/pages/editattachment.ac=
+tion?pageId=3D50684651&amp;fileName=3Dhow-to-conduct-code-review.pdf&amp;is=
+FromPageView=3Dtrue">Properties</a>=20
+<a class=3D"aui-button removeAttachmentLink" href=3D"/pages/confirmattachme=
+ntremoval.action?pageId=3D50684651&amp;fileName=3Dhow-to-conduct-code-revie=
+w.pdf">Delete</a>=20
+</div> </td>=20
+</tr>=20
+<tr id=3D"attachment-54481416" class=3D"attachment-row" data-attachment-id=
+=3D"54481416" data-attachment-idx=3D"3">=20
+<td class=3D"attachment-summary-toggle"> <span class=3D"icon icon-section-c=
+losed" title=3D"Show more info"></span> </td>=20
+<td class=3D"filename-column"> <span class=3D"aui-icon content-type-attachm=
+ent-pdf" title=3D"PDF File">PDF File</span> <a class=3D"filename" href=3D"/=
+download/attachments/50684651/inner-evildoer-thorough-security-testing.pdf?=
+api=3Dv2" title=3D"Download" data-filename=3D"inner-evildoer-thorough-secur=
+ity-testing.pdf" data-type=3D"application/pdf" data-linked-resource-contain=
+er-id=3D"50684651"> inner-evildoer-thorough-security-testing.pdf </a> </td>=
+=20
+<td class=3D"attachment-created modified-column"> <span>Sep 26, 2016</span>=
+ <span>by</span> <a href=3D"    /display/~PVarga
+" class=3D"url fn confluence-userlink" data-username=3D"PVarga">Peter Varga=
+</a> </td>=20
+</tr>=20
+<tr class=3D"attachment-summary attachment-summary-54481416 hidden" data-at=
+tachment-id=3D"54481416" data-attachment-filename=3D"inner-evildoer-thoroug=
+h-security-testing.pdf">=20
+<td class=3D"attachment-summary-toggle"></td>=20
+<td class=3D"attachment-details-wrapper" colspan=3D"2">=20
+<div class=3D"attachment-image-preview"></div> <p class=3D"attachment-label=
+s">Labels</p>=20
+<div class=3D"labels-section-content content-column" entityid=3D"54481416" =
+entitytype=3D"attachment">=20
+<div class=3D"labels-content">=20
+<ul class=3D"label-list  has-pen">=20
+<li class=3D"no-labels-message"> No labels </li>=20
+<li class=3D"labels-edit-container"> <a href=3D"#" class=3D"show-labels-edi=
+tor" title=3D"Edit Labels"> <span class=3D"aui-icon aui-icon-small aui-icon=
+font-devtools-tag-small">Edit Labels</span> </a> </li>=20
+</ul>=20
+</div>=20
+</div>=20
+<div class=3D"attachment-history-wrapper"></div>=20
+<div class=3D"attachment-buttons">=20
+<a class=3D"aui-button previewAttachmentLink" data-filename=3D"inner-evildo=
+er-thorough-security-testing.pdf" data-file-src=3D"/download/attachments/50=
+684651/inner-evildoer-thorough-security-testing.pdf?api=3Dv2" data-linked-r=
+esource-default-alias=3D"inner-evildoer-thorough-security-testing.pdf" data=
+-mime-type=3D"application/pdf" data-linked-resource-container-id=3D"5068465=
+1" data-linked-resource-id=3D"54481416">Preview</a>=20
+<a class=3D"aui-button " href=3D"/pages/worddav/preview.action?fileName=3Di=
+nner-evildoer-thorough-security-testing.pdf&amp;pageId=3D50684651">View</a>=
+=20
+<a class=3D"aui-button editAttachmentLink" href=3D"/pages/editattachment.ac=
+tion?pageId=3D50684651&amp;fileName=3Dinner-evildoer-thorough-security-test=
+ing.pdf&amp;isFromPageView=3Dtrue">Properties</a>=20
+<a class=3D"aui-button removeAttachmentLink" href=3D"/pages/confirmattachme=
+ntremoval.action?pageId=3D50684651&amp;fileName=3Dinner-evildoer-thorough-s=
+ecurity-testing.pdf">Delete</a>=20
+</div> </td>=20
+</tr>=20
+<tr id=3D"attachment-54481417" class=3D"attachment-row" data-attachment-id=
+=3D"54481417" data-attachment-idx=3D"4">=20
+<td class=3D"attachment-summary-toggle"> <span class=3D"icon icon-section-c=
+losed" title=3D"Show more info"></span> </td>=20
+<td class=3D"filename-column"> <span class=3D"aui-icon content-type-attachm=
+ent-pdf" title=3D"PDF File">PDF File</span> <a class=3D"filename" href=3D"/=
+download/attachments/50684651/ponemon-state-of-application-security-maturit=
+y.pdf?api=3Dv2" title=3D"Download" data-filename=3D"ponemon-state-of-applic=
+ation-security-maturity.pdf" data-type=3D"application/pdf" data-linked-reso=
+urce-container-id=3D"50684651"> ponemon-state-of-application-security-matur=
+ity.pdf </a> </td>=20
+<td class=3D"attachment-created modified-column"> <span>Sep 26, 2016</span>=
+ <span>by</span> <a href=3D"    /display/~PVarga
+" class=3D"url fn confluence-userlink" data-username=3D"PVarga">Peter Varga=
+</a> </td>=20
+</tr>=20
+<tr class=3D"attachment-summary attachment-summary-54481417 hidden" data-at=
+tachment-id=3D"54481417" data-attachment-filename=3D"ponemon-state-of-appli=
+cation-security-maturity.pdf">=20
+<td class=3D"attachment-summary-toggle"></td>=20
+<td class=3D"attachment-details-wrapper" colspan=3D"2">=20
+<div class=3D"attachment-image-preview"></div> <p class=3D"attachment-label=
+s">Labels</p>=20
+<div class=3D"labels-section-content content-column" entityid=3D"54481417" =
+entitytype=3D"attachment">=20
+<div class=3D"labels-content">=20
+<ul class=3D"label-list  has-pen">=20
+<li class=3D"no-labels-message"> No labels </li>=20
+<li class=3D"labels-edit-container"> <a href=3D"#" class=3D"show-labels-edi=
+tor" title=3D"Edit Labels"> <span class=3D"aui-icon aui-icon-small aui-icon=
+font-devtools-tag-small">Edit Labels</span> </a> </li>=20
+</ul>=20
+</div>=20
+</div>=20
+<div class=3D"attachment-history-wrapper"></div>=20
+<div class=3D"attachment-buttons">=20
+<a class=3D"aui-button previewAttachmentLink" data-filename=3D"ponemon-stat=
+e-of-application-security-maturity.pdf" data-file-src=3D"/download/attachme=
+nts/50684651/ponemon-state-of-application-security-maturity.pdf?api=3Dv2" d=
+ata-linked-resource-default-alias=3D"ponemon-state-of-application-security-=
+maturity.pdf" data-mime-type=3D"application/pdf" data-linked-resource-conta=
+iner-id=3D"50684651" data-linked-resource-id=3D"54481417">Preview</a>=20
+<a class=3D"aui-button " href=3D"/pages/worddav/preview.action?fileName=3Dp=
+onemon-state-of-application-security-maturity.pdf&amp;pageId=3D50684651">Vi=
+ew</a>=20
+<a class=3D"aui-button editAttachmentLink" href=3D"/pages/editattachment.ac=
+tion?pageId=3D50684651&amp;fileName=3Dponemon-state-of-application-security=
+-maturity.pdf&amp;isFromPageView=3Dtrue">Properties</a>=20
+<a class=3D"aui-button removeAttachmentLink" href=3D"/pages/confirmattachme=
+ntremoval.action?pageId=3D50684651&amp;fileName=3Dponemon-state-of-applicat=
+ion-security-maturity.pdf">Delete</a>=20
+</div> </td>=20
+</tr>=20
+<tr id=3D"attachment-54481418" class=3D"attachment-row" data-attachment-id=
+=3D"54481418" data-attachment-idx=3D"5">=20
+<td class=3D"attachment-summary-toggle"> <span class=3D"icon icon-section-c=
+losed" title=3D"Show more info"></span> </td>=20
+<td class=3D"filename-column"> <span class=3D"aui-icon content-type-attachm=
+ent-pdf" title=3D"PDF File">PDF File</span> <a class=3D"filename" href=3D"/=
+download/attachments/50684651/security-engineering-explained.pdf?api=3Dv2" =
+title=3D"Download" data-filename=3D"security-engineering-explained.pdf" dat=
+a-type=3D"application/pdf" data-linked-resource-container-id=3D"50684651"> =
+security-engineering-explained.pdf </a> </td>=20
+<td class=3D"attachment-created modified-column"> <span>Sep 26, 2016</span>=
+ <span>by</span> <a href=3D"    /display/~PVarga
+" class=3D"url fn confluence-userlink" data-username=3D"PVarga">Peter Varga=
+</a> </td>=20
+</tr>=20
+<tr class=3D"attachment-summary attachment-summary-54481418 hidden" data-at=
+tachment-id=3D"54481418" data-attachment-filename=3D"security-engineering-e=
+xplained.pdf">=20
+<td class=3D"attachment-summary-toggle"></td>=20
+<td class=3D"attachment-details-wrapper" colspan=3D"2">=20
+<div class=3D"attachment-image-preview"></div> <p class=3D"attachment-label=
+s">Labels</p>=20
+<div class=3D"labels-section-content content-column" entityid=3D"54481418" =
+entitytype=3D"attachment">=20
+<div class=3D"labels-content">=20
+<ul class=3D"label-list  has-pen">=20
+<li class=3D"no-labels-message"> No labels </li>=20
+<li class=3D"labels-edit-container"> <a href=3D"#" class=3D"show-labels-edi=
+tor" title=3D"Edit Labels"> <span class=3D"aui-icon aui-icon-small aui-icon=
+font-devtools-tag-small">Edit Labels</span> </a> </li>=20
+</ul>=20
+</div>=20
+</div>=20
+<div class=3D"attachment-history-wrapper"></div>=20
+<div class=3D"attachment-buttons">=20
+<a class=3D"aui-button previewAttachmentLink" data-filename=3D"security-eng=
+ineering-explained.pdf" data-file-src=3D"/download/attachments/50684651/sec=
+urity-engineering-explained.pdf?api=3Dv2" data-linked-resource-default-alia=
+s=3D"security-engineering-explained.pdf" data-mime-type=3D"application/pdf"=
+ data-linked-resource-container-id=3D"50684651" data-linked-resource-id=3D"=
+54481418">Preview</a>=20
+<a class=3D"aui-button " href=3D"/pages/worddav/preview.action?fileName=3Ds=
+ecurity-engineering-explained.pdf&amp;pageId=3D50684651">View</a>=20
+<a class=3D"aui-button editAttachmentLink" href=3D"/pages/editattachment.ac=
+tion?pageId=3D50684651&amp;fileName=3Dsecurity-engineering-explained.pdf&am=
+p;isFromPageView=3Dtrue">Properties</a>=20
+<a class=3D"aui-button removeAttachmentLink" href=3D"/pages/confirmattachme=
+ntremoval.action?pageId=3D50684651&amp;fileName=3Dsecurity-engineering-expl=
+ained.pdf">Delete</a>=20
+</div> </td>=20
+</tr>=20
+<tr id=3D"attachment-54481419" class=3D"attachment-row" data-attachment-id=
+=3D"54481419" data-attachment-idx=3D"6">=20
+<td class=3D"attachment-summary-toggle"> <span class=3D"icon icon-section-c=
+losed" title=3D"Show more info"></span> </td>=20
+<td class=3D"filename-column"> <span class=3D"aui-icon content-type-attachm=
+ent-pdf" title=3D"PDF File">PDF File</span> <a class=3D"filename" href=3D"/=
+download/attachments/50684651/simplifying-security-owasp-top-ten.pdf?api=3D=
+v2" title=3D"Download" data-filename=3D"simplifying-security-owasp-top-ten.=
+pdf" data-type=3D"application/pdf" data-linked-resource-container-id=3D"506=
+84651"> simplifying-security-owasp-top-ten.pdf </a> </td>=20
+<td class=3D"attachment-created modified-column"> <span>Sep 26, 2016</span>=
+ <span>by</span> <a href=3D"    /display/~PVarga
+" class=3D"url fn confluence-userlink" data-username=3D"PVarga">Peter Varga=
+</a> </td>=20
+</tr>=20
+<tr class=3D"attachment-summary attachment-summary-54481419 hidden" data-at=
+tachment-id=3D"54481419" data-attachment-filename=3D"simplifying-security-o=
+wasp-top-ten.pdf">=20
+<td class=3D"attachment-summary-toggle"></td>=20
+<td class=3D"attachment-details-wrapper" colspan=3D"2">=20
+<div class=3D"attachment-image-preview"></div> <p class=3D"attachment-label=
+s">Labels</p>=20
+<div class=3D"labels-section-content content-column" entityid=3D"54481419" =
+entitytype=3D"attachment">=20
+<div class=3D"labels-content">=20
+<ul class=3D"label-list  has-pen">=20
+<li class=3D"no-labels-message"> No labels </li>=20
+<li class=3D"labels-edit-container"> <a href=3D"#" class=3D"show-labels-edi=
+tor" title=3D"Edit Labels"> <span class=3D"aui-icon aui-icon-small aui-icon=
+font-devtools-tag-small">Edit Labels</span> </a> </li>=20
+</ul>=20
+</div>=20
+</div>=20
+<div class=3D"attachment-history-wrapper"></div>=20
+<div class=3D"attachment-buttons">=20
+<a class=3D"aui-button previewAttachmentLink" data-filename=3D"simplifying-=
+security-owasp-top-ten.pdf" data-file-src=3D"/download/attachments/50684651=
+/simplifying-security-owasp-top-ten.pdf?api=3Dv2" data-linked-resource-defa=
+ult-alias=3D"simplifying-security-owasp-top-ten.pdf" data-mime-type=3D"appl=
+ication/pdf" data-linked-resource-container-id=3D"50684651" data-linked-res=
+ource-id=3D"54481419">Preview</a>=20
+<a class=3D"aui-button " href=3D"/pages/worddav/preview.action?fileName=3Ds=
+implifying-security-owasp-top-ten.pdf&amp;pageId=3D50684651">View</a>=20
+<a class=3D"aui-button editAttachmentLink" href=3D"/pages/editattachment.ac=
+tion?pageId=3D50684651&amp;fileName=3Dsimplifying-security-owasp-top-ten.pd=
+f&amp;isFromPageView=3Dtrue">Properties</a>=20
+<a class=3D"aui-button removeAttachmentLink" href=3D"/pages/confirmattachme=
+ntremoval.action?pageId=3D50684651&amp;fileName=3Dsimplifying-security-owas=
+p-top-ten.pdf">Delete</a>=20
+</div> </td>=20
+</tr>=20
+<tr id=3D"attachment-146440783" class=3D"attachment-row" data-attachment-id=
+=3D"146440783" data-attachment-idx=3D"7">=20
+<td class=3D"attachment-summary-toggle"> <span class=3D"icon icon-section-c=
+losed" title=3D"Show more info"></span> </td>=20
+<td class=3D"filename-column"> <span class=3D"aui-icon content-type-attachm=
+ent-image" title=3D"JPEG File">JPEG File</span> <a class=3D"filename" href=
+=3D"/download/attachments/50684651/securityaround.jpg?api=3Dv2" title=3D"Do=
+wnload" data-filename=3D"securityaround.jpg" data-type=3D"image/jpeg" data-=
+linked-resource-container-id=3D"50684651"> securityaround.jpg </a> </td>=20
+<td class=3D"attachment-created modified-column"> <span>Apr 29, 2019</span>=
+ <span>by</span> <a href=3D"    /display/~PVarga
+" class=3D"url fn confluence-userlink" data-username=3D"PVarga">Peter Varga=
+</a> </td>=20
+</tr>=20
+<tr class=3D"attachment-summary attachment-summary-146440783 hidden" data-a=
+ttachment-id=3D"146440783" data-attachment-filename=3D"securityaround.jpg">=
+=20
+<td class=3D"attachment-summary-toggle"></td>=20
+<td class=3D"attachment-details-wrapper" colspan=3D"2">=20
+<div class=3D"attachment-image-preview"></div> <p class=3D"attachment-label=
+s">Labels</p>=20
+<div class=3D"labels-section-content content-column" entityid=3D"146440783"=
+ entitytype=3D"attachment">=20
+<div class=3D"labels-content">=20
+<ul class=3D"label-list  has-pen">=20
+<li class=3D"no-labels-message"> No labels </li>=20
+<li class=3D"labels-edit-container"> <a href=3D"#" class=3D"show-labels-edi=
+tor" title=3D"Edit Labels"> <span class=3D"aui-icon aui-icon-small aui-icon=
+font-devtools-tag-small">Edit Labels</span> </a> </li>=20
+</ul>=20
+</div>=20
+</div>=20
+<div class=3D"attachment-history-wrapper"></div>=20
+<div class=3D"attachment-buttons">=20
+<a class=3D"aui-button previewAttachmentLink" data-filename=3D"securityarou=
+nd.jpg" data-file-src=3D"/download/attachments/50684651/securityaround.jpg?=
+api=3Dv2" data-linked-resource-default-alias=3D"securityaround.jpg" data-mi=
+me-type=3D"image/jpeg" data-linked-resource-container-id=3D"50684651" data-=
+linked-resource-id=3D"146440783">Preview</a>=20
+<a class=3D"aui-button editAttachmentLink" href=3D"/pages/editattachment.ac=
+tion?pageId=3D50684651&amp;fileName=3Dsecurityaround.jpg&amp;isFromPageView=
+=3Dtrue">Properties</a>=20
+<a class=3D"aui-button removeAttachmentLink" href=3D"/pages/confirmattachme=
+ntremoval.action?pageId=3D50684651&amp;fileName=3Dsecurityaround.jpg">Delet=
+e</a>=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+</div>=20
+<div class=3D"plugin_attachments_upload_container">=20
+<div class=3D"attachments-table-drop-zone">=20
+<li class=3D"drop-zone-text">=20
+<div class=3D"drop-zone-image"></div> <span>Drag and drop to upload or <a c=
+lass=3D"aui-button aui-button-link browse-files">browse for files</a></span=
+> <img src=3D"48b487fa93439d314996f484ecf10d29" class=3D"plugin_attachments=
+_dropzone_uploadwaiticon" width=3D"16" height=3D"16"> </li>=20
+<form method=3D"POST" class=3D"plugin_attachments_uploadform aui hidden" ac=
+tion=3D"/pages/plugins/attachments/doattachfile.action?pageId=3D50684651" e=
+nctype=3D"multipart/form-data">=20
+<input type=3D"hidden" name=3D"atl_token" value=3D"c8c5e3086688a3d091c4d0eb=
+a4cb7265abf00a29">=20
+<div class=3D"field-group">=20
+<label>Upload file</label>=20
+<input type=3D"file" name=3D"file_0" size=3D"30">=20
+</div>=20
+<div class=3D"field-group">=20
+<label>File description</label>=20
+<input type=3D"text" class=3D"blank-search text" name=3D"comment_0" size=3D=
+"20" placeholder=3D"Comment">=20
+<input type=3D"hidden" name=3D"labels" value=3D"$macroParams.labels">=20
+</div>=20
+<div class=3D"field-group">=20
+<input type=3D"submit" class=3D"submit aui-button" name=3D"confirm" value=
+=3D"Upload">=20
+</div>=20
+<iframe class=3D"plugin_attachments_uploadiframe hidden" name=3D"r289fDHvjd=
+Fbo9B1Vyc5Pq681FTCBISNjPwhKOI2c3LKtTSgbmlg4QxxDFz6Ktla" src=3D""></iframe>=
+=20
+</form>=20
+</div>=20
+</div>=20
+<div>=20
+<a class=3D"download-all-link" href=3D"/pages/downloadallattachments.action=
+?pageId=3D50684651" title=3D"Download all the latest versions of attachment=
+s on this page as single zip file.">Download All</a>=20
+</div>=20
+</div>=20
+<p></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+</div>
+    </div>
+</body>
+</html>
+------=_Part_34_1232209637.1641223486770
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/c1f7e4d60ccc0866deb6611db6dc88c4
+
+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
+------=_Part_34_1232209637.1641223486770
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/48b487fa93439d314996f484ecf10d29
+
+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
+fySDhGYQdDWGQyUhADs=
+------=_Part_34_1232209637.1641223486770--

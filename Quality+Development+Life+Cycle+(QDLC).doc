@@ -1,0 +1,2409 @@
+Message-ID: <249224064.27.1641223454319.JavaMail.confluence@ql2confluence1.mi.corp.rockfin.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_26_614777311.1641223454319"
+
+------=_Part_26_614777311.1641223454319
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Quality Development Life Cycle (QDLC)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Quality Development Life Cycle (QDLC)</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p>You can reach this space from :&nbsp; <a href=3D"http://shorty/qdlc/" cl=
+ass=3D"external-link" rel=3D"nofollow">http://shorty/QDLC</a></p>
+<p><br></p>
+<p class=3D"p1"><em>=E2=80=9CThe bitterness of poor quality remains long af=
+ter the sweetness of low price is forgotten.=E2=80=9D &nbsp;=E2=80=93&nbsp;=
+</em><em>Benjamin Franklin</em></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <map id=3D"gliffy-m=
+ap-59442128-9100" name=3D"gliffy-map-59442128-9100"></map> </p>
+<table width=3D"100%" class=3D"gliffy-macro-table">=20
+<tbody>
+<tr>=20
+<td>=20
+<table class=3D"gliffy-macro-inner-table">=20
+<caption align=3D"bottom">=20
+</caption>=20
+<tbody>
+<tr>=20
+<td> <img style=3D"border: none; width: 1106px;" usemap=3D"#gliffy-map-5944=
+2128-9100" src=3D"92152cbae3984e4dd23720d6c8479f0b" alt=3D"" class=3D"gliff=
+y-macro-image" width=3D"468" height=3D"54"> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<p></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>Note: Quality Gates denoted by a&nbsp;<span class=3D"confluence-embedded=
+-file-wrapper confluence-embedded-manual-size"><img class=3D"confluence-emb=
+edded-image confluence-thumbnail" width=3D"20" src=3D"da88547694247e64d40dd=
+02ab425a896" data-image-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?=
+version=3D1&amp;modificationDate=3D1500479546000&amp;api=3Dv2" data-unresol=
+ved-comment-count=3D"0" data-linked-resource-id=3D"67676093" data-linked-re=
+source-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-r=
+esource-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence"=
+ data-linked-resource-content-type=3D"image/jpeg" data-linked-resource-cont=
+ainer-id=3D"55393319" data-linked-resource-container-version=3D"336" height=
+=3D"20"></span>&nbsp;are required. All other non-starred quality gates are =
+highly recommended, but are not required.</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout two-equal" data-layout=3D"two-equal">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"QualityDevelopmentLifeCycle(QDLC)-Requirements/AcceptanceCriteria=
+"><a href=3D"https://confluence/pages/viewpage.action?pageId=3D36078381" re=
+l=3D"nofollow">Requirements / Acceptance Criteria</a></h1>
+<div id=3D"expander-417546738" class=3D"expand-container">
+<div id=3D"expander-control-417546738" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Why</span>
+</div>
+<div id=3D"expander-content-417546738" class=3D"expand-content">
+<p><span class=3D"inline-comment-marker" data-ref=3D"1f173ea9-d822-4695-aed=
+b-03b22c334531">Provide a minimal functional piece of deliverable&nbsp;soft=
+ware telling a story of how a user interacts with the system (As a user... =
+I would like to....so that....). This allows the team to break down the lar=
+ger picture into workable and testable user stories. &nbsp;It must include =
+a clear&nbsp;</span><em><span class=3D"inline-comment-marker" data-ref=3D"1=
+f173ea9-d822-4695-aedb-03b22c334531">Acceptance Criteria.&nbsp; Non-Functio=
+nal requirements should also be addressed depending on application and requ=
+irements such as performance and security.&nbsp; </span></em></p>
+</div>
+</div>
+<div id=3D"expander-862197734" class=3D"expand-container">
+<div id=3D"expander-control-862197734" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">How</span>
+</div>
+<div id=3D"expander-content-862197734" class=3D"expand-content">
+<p>Besides tools listed below, adapt principles such as INVEST, CCC, and co=
+llaborate with Team Members to define Definition of Done.&nbsp; Please clic=
+k the link below for more details!</p>
+<p><strong><a href=3D"/pages/viewpage.action?pageId=3D69629331">Tools (WIT:=
+ Work Item Tracking)</a>:</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 98.=
+5669%;">
+<colgroup>
+<col style=3D"width: 15.2104%;">
+<col style=3D"width: 84.7896%;">
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh"><strong>&nbsp;Tools</strong></th>
+<th colspan=3D"1" class=3D"confluenceTh"><strong>&nbsp;Details</strong></th=
+>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong><a href=3D"https://conflue=
+nce/display/WT/Getting+Started+with+TFS" rel=3D"nofollow">Team foundation S=
+erver (TFS)</a></strong></td>
+<td colspan=3D"1" class=3D"confluenceTd">Team Foundation Server (TFS) is a =
+tool our teams use to track work from idea to implementation. For example, =
+our IT Teams use it to remain Agile throughout the application management l=
+ifecycle.</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a rel=3D"nofollow" href=3D"https://confluence/d=
+isplay/KBR/JIRA+for+Beginners"><strong>Jira</strong></a></td>
+<td class=3D"confluenceTd">JIRA is a also a work tracking tool. It is mainl=
+y&nbsp;used for&nbsp;bug tracking, issue tracking,&nbsp;and&nbsp;project ma=
+nagement. The name "JIRA" is actually inherited from the Japanese word "Goj=
+ira" which means "Godzilla".</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong><a href=3D"https://confluence/display/GR=
+ACIE/GRACIE+Home" rel=3D"nofollow">Gracie</a></strong></td>
+<td class=3D"confluenceTd">Gracie, also known as Archer, is a web based too=
+l to allow business users to manage, mitigate, and predict risk and complia=
+nce related issues. The Gracie acronym stands for: Governance, Risk and Com=
+pliance Intelligence Expert.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em><strong>Note</strong>: <span>If there is a tool not listed here that=
+ your team uses, please inform QAPOW or add a comment here</span></em></p>
+</div>
+</div>
+<div id=3D"expander-1812598454" class=3D"expand-container">
+<div id=3D"expander-control-1812598454" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Quality Gates</span>
+</div>
+<div id=3D"expander-content-1812598454" class=3D"expand-content">
+<p><span class=3D"s2"><span>At the end of this step you'll have:</span></sp=
+an></p>
+<ol>
+<li><span class=3D"s2">User Stories are implemented using the&nbsp;<u><a hr=
+ef=3D"/pages/viewpage.action?pageId=3D36078381">INVEST</a></u>&nbsp;(<stron=
+g><u>I</u></strong>ndependent,&nbsp;<strong><u>N</u></strong>egotiable, <st=
+rong><u>V</u></strong>aluable,&nbsp;<strong><u>E</u></strong>stimable,&nbsp=
+;<strong><u>S</u></strong>mall,&nbsp;<strong><u>T</u></strong>estable) mnem=
+onic.</span></li>
+<li>Verify that the Acceptance Criteria is clear and unambiguous using simp=
+le/gump language.<span class=3D"confluence-embedded-file-wrapper confluence=
+-embedded-manual-size"><img class=3D"confluence-embedded-image confluence-t=
+humbnail" width=3D"16" src=3D"da88547694247e64d40dd02ab425a896" data-image-=
+src=3D"/download/attachments/55393319/UlUEB1MC.jpg?version=3D1&amp;modifica=
+tionDate=3D1500479546000&amp;api=3Dv2" data-unresolved-comment-count=3D"0" =
+data-linked-resource-id=3D"67676093" data-linked-resource-version=3D"1" dat=
+a-linked-resource-type=3D"attachment" data-linked-resource-default-alias=3D=
+"UlUEB1MC.jpg" data-base-url=3D"https://confluence" data-linked-resource-co=
+ntent-type=3D"image/jpeg" data-linked-resource-container-id=3D"55393319" da=
+ta-linked-resource-container-version=3D"336" height=3D"16"></span></li>
+<li>Acceptance criteria should be testable, and clearly verify&nbsp;expecte=
+d outcomes from the requirements.<span class=3D"confluence-embedded-file-wr=
+apper confluence-embedded-manual-size"><img class=3D"confluence-embedded-im=
+age confluence-thumbnail" width=3D"16" src=3D"da88547694247e64d40dd02ab425a=
+896" data-image-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?version=
+=3D1&amp;modificationDate=3D1500479546000&amp;api=3Dv2" data-unresolved-com=
+ment-count=3D"0" data-linked-resource-id=3D"67676093" data-linked-resource-=
+version=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource=
+-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence" data-l=
+inked-resource-content-type=3D"image/jpeg" data-linked-resource-container-i=
+d=3D"55393319" data-linked-resource-container-version=3D"336" height=3D"16"=
+></span></li>
+<li>Reach a Team consensus on "Definition of Done" (DoD).<span class=3D"con=
+fluence-embedded-file-wrapper confluence-embedded-manual-size"><img class=
+=3D"confluence-embedded-image confluence-thumbnail" width=3D"16" src=3D"da8=
+8547694247e64d40dd02ab425a896" data-image-src=3D"/download/attachments/5539=
+3319/UlUEB1MC.jpg?version=3D1&amp;modificationDate=3D1500479546000&amp;api=
+=3Dv2" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"67676=
+093" data-linked-resource-version=3D"1" data-linked-resource-type=3D"attach=
+ment" data-linked-resource-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"=
+https://confluence" data-linked-resource-content-type=3D"image/jpeg" data-l=
+inked-resource-container-id=3D"55393319" data-linked-resource-container-ver=
+sion=3D"336" height=3D"16"></span></li>
+<li>Verify NFR advocate has been assigned.&nbsp; Also&nbsp;NFRs have been d=
+iscussed and planned for in your tracking tool.<span class=3D"confluence-em=
+bedded-file-wrapper confluence-embedded-manual-size"><img class=3D"confluen=
+ce-embedded-image confluence-thumbnail" width=3D"16" src=3D"da88547694247e6=
+4d40dd02ab425a896" data-image-src=3D"/download/attachments/55393319/UlUEB1M=
+C.jpg?version=3D1&amp;modificationDate=3D1500479546000&amp;api=3Dv2" data-u=
+nresolved-comment-count=3D"0" data-linked-resource-id=3D"67676093" data-lin=
+ked-resource-version=3D"1" data-linked-resource-type=3D"attachment" data-li=
+nked-resource-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https://confl=
+uence" data-linked-resource-content-type=3D"image/jpeg" data-linked-resourc=
+e-container-id=3D"55393319" data-linked-resource-container-version=3D"336" =
+height=3D"16"></span><span class=3D"s2"><br></span></li>
+<li><span>Implementation of&nbsp;CCC - Card Conversation Confirmation.</spa=
+n></li>
+</ol>
+<p>For detailed info on what are current checkpoints, please reach out to <=
+a href=3D"https://confluence/display/ILEAN/Story+and+AC" rel=3D"nofollow">i=
+Lean</a>.&nbsp; The goal is to follow the INVEST mnemonic when writing requ=
+irements&nbsp;and&nbsp;define testable and clear Acceptance Criteria.&nbsp;=
+</p>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>Click <a href=3D"https://confluence/pages/viewpage.action?pageId=3D36078=
+381" rel=3D"nofollow">here</a>&nbsp;for more details&nbsp;on <a href=3D"/pa=
+ges/viewpage.action?pageId=3D36078381">Requirements</a></p>
+<div>
+<span style=3D"white-space: pre-wrap;"><br></span>
+</div>
+</div>=20
+</div>=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"QualityDevelopmentLifeCycle(QDLC)-IdentifyTests/Scenarios(TestPla=
+nning)"><a href=3D"https://confluence/pages/viewpage.action?pageId=3D575522=
+41" rel=3D"nofollow">Identify Tests / Scenarios (Test Planning)</a></h1>
+<div id=3D"expander-514835629" class=3D"expand-container">
+<div id=3D"expander-control-514835629" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Why</span>
+</div>
+<div id=3D"expander-content-514835629" class=3D"expand-content">
+<p>For any&nbsp;project or development of an application, the team(s) and T=
+Ms will need to identify all the types of tests and scenarios.&nbsp; The id=
+entification of the tests and scenarios&nbsp;are necessary to make sure the=
+ application is fully tested (traceability matrix) and covers the requireme=
+nts and acceptance criteria.&nbsp;</p>
+<p>Other tests to consider would be Performance, Security, Maintenance, E2E=
+ and UV testing.</p>
+</div>
+</div>
+<div id=3D"expander-1491612018" class=3D"expand-container">
+<div id=3D"expander-control-1491612018" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">How</span>
+</div>
+<div id=3D"expander-content-1491612018" class=3D"expand-content">
+<p>Validate that the tests and scenarios&nbsp;identified&nbsp;will satisfy =
+the requirements and acceptance criteria of the project/application.&nbsp;<=
+br>Please click the link below for more details!</p>
+<p><strong>Tools</strong>:</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Tool</th>
+<th class=3D"confluenceTh">Licensing Model</th>
+<th class=3D"confluenceTh">On-Prem/SaaS</th>
+<th class=3D"confluenceTh">Supported Tech Stack</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">TFS</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;Free</td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem</td>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">JIRA</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;Not Free</td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem</td>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>NOTE:&nbsp;If there is a tool not listed here that your team uses, p=
+lease inform QAPOW or add a comment here</em></p>
+</div>
+</div>
+<div id=3D"expander-980051143" class=3D"expand-container">
+<div id=3D"expander-control-980051143" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Quality Gates</span>
+</div>
+<div id=3D"expander-content-980051143" class=3D"expand-content">
+<p>At the end of this step you'll have:</p>
+<ol>
+<li><a href=3D"https://confluence/pages/viewpage.action?pageId=3D57552241" =
+rel=3D"nofollow">Test Strategy which includes and details the types of test=
+ing to be performed</a> (<em>Unit testing, Functional UI testing, User Vali=
+dation testing, etc.)<span class=3D"confluence-embedded-file-wrapper conflu=
+ence-embedded-manual-size"><img class=3D"confluence-embedded-image confluen=
+ce-thumbnail" width=3D"16" src=3D"da88547694247e64d40dd02ab425a896" data-im=
+age-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?version=3D1&amp;modi=
+ficationDate=3D1500479546000&amp;api=3Dv2" data-unresolved-comment-count=3D=
+"0" data-linked-resource-id=3D"67676093" data-linked-resource-version=3D"1"=
+ data-linked-resource-type=3D"attachment" data-linked-resource-default-alia=
+s=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence" data-linked-resourc=
+e-content-type=3D"image/jpeg" data-linked-resource-container-id=3D"55393319=
+" data-linked-resource-container-version=3D"336" height=3D"16"></span></em>=
+</li>
+<li>Define&nbsp;positive and negative&nbsp;scenarios for each acceptance cr=
+iteria of every single requirement.<span class=3D"confluence-embedded-file-=
+wrapper confluence-embedded-manual-size"><img class=3D"confluence-embedded-=
+image confluence-thumbnail" width=3D"16" src=3D"da88547694247e64d40dd02ab42=
+5a896" data-image-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?versio=
+n=3D1&amp;modificationDate=3D1500479546000&amp;api=3Dv2" data-unresolved-co=
+mment-count=3D"0" data-linked-resource-id=3D"67676093" data-linked-resource=
+-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-resourc=
+e-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence" data-=
+linked-resource-content-type=3D"image/jpeg" data-linked-resource-container-=
+id=3D"55393319" data-linked-resource-container-version=3D"336" height=3D"16=
+"></span></li>
+<li>Track and maintain the test scenarios in a work item tracking tool.<spa=
+n class=3D"confluence-embedded-file-wrapper confluence-embedded-manual-size=
+"><img class=3D"confluence-embedded-image confluence-thumbnail" width=3D"16=
+" src=3D"da88547694247e64d40dd02ab425a896" data-image-src=3D"/download/atta=
+chments/55393319/UlUEB1MC.jpg?version=3D1&amp;modificationDate=3D1500479546=
+000&amp;api=3Dv2" data-unresolved-comment-count=3D"0" data-linked-resource-=
+id=3D"67676093" data-linked-resource-version=3D"1" data-linked-resource-typ=
+e=3D"attachment" data-linked-resource-default-alias=3D"UlUEB1MC.jpg" data-b=
+ase-url=3D"https://confluence" data-linked-resource-content-type=3D"image/j=
+peg" data-linked-resource-container-id=3D"55393319" data-linked-resource-co=
+ntainer-version=3D"336" height=3D"16"></span></li>
+</ol>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>Click <a href=3D"/pages/viewpage.action?pageId=3D57552241">here </a>for =
+more details on <a href=3D"/pages/viewpage.action?pageId=3D57552241">Identi=
+fying Tests</a></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout two-equal" data-layout=3D"two-equal">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"QualityDevelopmentLifeCycle(QDLC)-Design"><a href=3D"/display/QAP=
+OWArchive/Design">Design</a></h1>
+<div id=3D"expander-566288607" class=3D"expand-container">
+<div id=3D"expander-control-566288607" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Why</span>
+</div>
+<div id=3D"expander-content-566288607" class=3D"expand-content">
+<p>Design errors usually show up in even the most carefully considered user=
+ applications/systems when users start working with it.&nbsp; Even if the c=
+ode is flawless, a faulty design can lead its users into bugs, confusion, o=
+r provide them with too little flexibility or functionality to do a task th=
+ey reasonably expect to be able to do.</p>
+</div>
+</div>
+<div id=3D"expander-1316970690" class=3D"expand-container">
+<div id=3D"expander-control-1316970690" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">How</span>
+</div>
+<div id=3D"expander-content-1316970690" class=3D"expand-content">
+<p>Compile Design Documents to show a clear picture of how the system will =
+work and they should address below questions:</p>
+<p>Architectural and Data flow diagrams should be put together to visually =
+show the functions and operations of the system or application being design=
+ed. Technical documents such as database and sequence diagrams are also ver=
+y helpful.</p>
+<p><strong>Tools:</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Tool</th>
+<th class=3D"confluenceTh">Licensing Model</th>
+<th class=3D"confluenceTh">On-Prem/SaaS</th>
+<th class=3D"confluenceTh">Supported Tech Stack</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">Signavio</td>
+<td colspan=3D"1" class=3D"confluenceTd">Licensed</td>
+<td colspan=3D"1" class=3D"confluenceTd">SaaS</td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Gliffy (Confluence)</td>
+<td class=3D"confluenceTd"><span>Licensed (with Confluence)</span></td>
+<td class=3D"confluenceTd">On-Prem</td>
+<td class=3D"confluenceTd">Confluence</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">MS Office</td>
+<td class=3D"confluenceTd"><span>Licensed</span></td>
+<td class=3D"confluenceTd">On-Prem</td>
+<td class=3D"confluenceTd">N/A</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Visio</td>
+<td class=3D"confluenceTd">Free w/ MSDN account</td>
+<td class=3D"confluenceTd">On-Prem</td>
+<td class=3D"confluenceTd">N/A</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://www.archimateto=
+ol.com/" class=3D"external-link" rel=3D"nofollow">Archi</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">Free</td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem</td>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://www.orbussoftwa=
+re.com/blog/visio" class=3D"external-link" rel=3D"nofollow">Orbus</a><span>=
+/</span><a href=3D"http://architecture-center.com/blog/archimate-3-0-stenci=
+l-set-for-visio.html" class=3D"external-link" rel=3D"nofollow">Archimate St=
+ensil</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">Free with Visio</td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem</td>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>NOTE:&nbsp;If there is a tool not listed here that your team uses, p=
+lease inform QAPOW or add a comment here</em></p>
+</div>
+</div>
+<div id=3D"expander-1358912741" class=3D"expand-container">
+<div id=3D"expander-control-1358912741" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Quality Gates</span>
+</div>
+<div id=3D"expander-content-1358912741" class=3D"expand-content">
+<p>At the end of this step you'll have:</p>
+<ul>
+<li>Conducted a Design Review to ensure the design properly addresses pract=
+icality, efficiency, cost, flexibility, and security. This can be setup wit=
+h your team, solution architects, enterprise architects, QAPOW, and Quality=
+ Driver.<span class=3D"confluence-embedded-file-wrapper confluence-embedded=
+-manual-size"><img class=3D"confluence-embedded-image confluence-thumbnail"=
+ width=3D"16" src=3D"da88547694247e64d40dd02ab425a896" data-image-src=3D"/d=
+ownload/attachments/55393319/UlUEB1MC.jpg?version=3D1&amp;modificationDate=
+=3D1500479546000&amp;api=3Dv2" data-unresolved-comment-count=3D"0" data-lin=
+ked-resource-id=3D"67676093" data-linked-resource-version=3D"1" data-linked=
+-resource-type=3D"attachment" data-linked-resource-default-alias=3D"UlUEB1M=
+C.jpg" data-base-url=3D"https://confluence" data-linked-resource-content-ty=
+pe=3D"image/jpeg" data-linked-resource-container-id=3D"55393319" data-linke=
+d-resource-container-version=3D"336" height=3D"16"></span></li>
+<li>Consider implementing code using SOLID design principles.</li>
+</ul>
+</div>
+</div>
+<p><span style=3D"color: rgb(0,0,0);"><br></span></p>
+<p><span style=3D"color: rgb(0,0,0);">Click </span><a href=3D"/display/QAPO=
+WArchive/Design">here</a> for more details on <a href=3D"/display/QAPOWArch=
+ive/Design">Design</a></p>
+</div>=20
+</div>=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"QualityDevelopmentLifeCycle(QDLC)-Coding(ApplicationDevelopment&a=
+mp;TestAutomation)"><a href=3D"https://confluence/display/QAPOW/Coding+Guid=
+ance" rel=3D"nofollow">Coding (Application Development &amp; Test Automatio=
+n)</a></h1>
+<div id=3D"expander-2121480840" class=3D"expand-container">
+<div id=3D"expander-control-2121480840" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Why</span>
+</div>
+<div id=3D"expander-content-2121480840" class=3D"expand-content">
+<p>Application code and test automation code written following standards an=
+d guidelines</p>
+</div>
+</div>
+<div id=3D"expander-1266655497" class=3D"expand-container">
+<div id=3D"expander-control-1266655497" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">How</span>
+</div>
+<div id=3D"expander-content-1266655497" class=3D"expand-content">
+<p><strong>Best practices and standards for the programming language</stron=
+g> - <a href=3D"/display/QAPOW/Coding+Standards+and+Guidelines">Coding Stan=
+dards and Guidelines</a></p>
+<p><strong>Code analysis</strong> - Code can be analyzed using both static =
+and dynamic code analysis</p>
+<p><strong>Code review -</strong> <a href=3D"https://confluence/display/QAP=
+OW/Code+Review" rel=3D"nofollow">Code review</a> is an important process th=
+at helps ensure code has been written following best practices and guidelin=
+es and there are no intended consequences. <strong> </strong></p>
+<p><strong>Recommended test frameworks for different application stacks - <=
+/strong><a href=3D"/pages/viewpage.action?pageId=3D56367361">Test Automatio=
+n Tools (Recommendations based on application stack)</a>. <a href=3D"http:/=
+/www.seleniumhq.org/projects/webdriver/" class=3D"external-link" rel=3D"nof=
+ollow">Selenium WebDriver</a> is a tool that is usually used along with the=
+se test frameworks to drive the tests through different browsers.</p>
+<p><strong>Test automation code</strong> - Test automation code must be wri=
+tten following these <a href=3D"https://confluence/display/QAPOW/Test+Autom=
+ation+best+practices" rel=3D"nofollow">best practices</a></p>
+<p><strong>Tools:</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Tool</th>
+<th class=3D"confluenceTh">Licensing Model</th>
+<th class=3D"confluenceTh">On-Prem/SaaS</th>
+<th class=3D"confluenceTh">Supported Tech Stack</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">Visual Studio</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;Free w/MSDN account</td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem</td>
+<td colspan=3D"1" class=3D"confluenceTd">C#, .net</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">Visual Studio Code</td>
+<td colspan=3D"1" class=3D"confluenceTd">Free</td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem</td>
+<td colspan=3D"1" class=3D"confluenceTd">C#, .net</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">LINQPad</td>
+<td colspan=3D"1" class=3D"confluenceTd">Free with the Enterprise Key</td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem</td>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">Telerik Fiddler</td>
+<td colspan=3D"1" class=3D"confluenceTd">Free</td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem</td>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">MS OFFICE</td>
+<td colspan=3D"1" class=3D"confluenceTd">Not Free, but available on systems=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem</td>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">Selenium</td>
+<td colspan=3D"1" class=3D"confluenceTd">Free</td>
+<td colspan=3D"1" class=3D"confluenceTd">Downloadable</td>
+<td colspan=3D"1" class=3D"confluenceTd">N/A</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>NOTE:&nbsp;If there is a tool not listed here that your team uses, p=
+lease inform QAPOW or add a comment here</em></p>
+</div>
+</div>
+<div id=3D"expander-14734485" class=3D"expand-container">
+<div id=3D"expander-control-14734485" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Quality Gates</span>
+</div>
+<div id=3D"expander-content-14734485" class=3D"expand-content">
+<p><span>At the end of this step you'll have:</span></p>
+<ul>
+<li>Code must be written following best practices using <a href=3D"/display=
+/QAPOW/Coding+Standards+and+Guidelines">Coding Standards and Guidelines</a>=
+ and <a href=3D"https://confluence/display/QAPOW/Secure+Coding+Standards" r=
+el=3D"nofollow">Secure Coding Standards<span class=3D"confluence-embedded-f=
+ile-wrapper confluence-embedded-manual-size"><img class=3D"confluence-embed=
+ded-image confluence-thumbnail" width=3D"16" src=3D"da88547694247e64d40dd02=
+ab425a896" data-image-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?ve=
+rsion=3D1&amp;modificationDate=3D1500479546000&amp;api=3Dv2" data-unresolve=
+d-comment-count=3D"0" data-linked-resource-id=3D"67676093" data-linked-reso=
+urce-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-res=
+ource-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence" d=
+ata-linked-resource-content-type=3D"image/jpeg" data-linked-resource-contai=
+ner-id=3D"55393319" data-linked-resource-container-version=3D"336" height=
+=3D"16"></span></a></li>
+<li>Developer should compile and check-in the code frequently.<span class=
+=3D"confluence-embedded-file-wrapper confluence-embedded-manual-size"><img =
+class=3D"confluence-embedded-image confluence-thumbnail" width=3D"16" src=
+=3D"da88547694247e64d40dd02ab425a896" data-image-src=3D"/download/attachmen=
+ts/55393319/UlUEB1MC.jpg?version=3D1&amp;modificationDate=3D1500479546000&a=
+mp;api=3Dv2" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D=
+"67676093" data-linked-resource-version=3D"1" data-linked-resource-type=3D"=
+attachment" data-linked-resource-default-alias=3D"UlUEB1MC.jpg" data-base-u=
+rl=3D"https://confluence" data-linked-resource-content-type=3D"image/jpeg" =
+data-linked-resource-container-id=3D"55393319" data-linked-resource-contain=
+er-version=3D"336" height=3D"16"></span></li>
+<li>Developers should conduct <a href=3D"/display/QAPOW/Code+Review">Code R=
+eviews</a> and <a href=3D"https://confluence/display/QAPOW/Security+Code+Re=
+views" rel=3D"nofollow">Secure Code Reviews<span class=3D"confluence-embedd=
+ed-file-wrapper confluence-embedded-manual-size"><img class=3D"confluence-e=
+mbedded-image confluence-thumbnail" width=3D"16" src=3D"da88547694247e64d40=
+dd02ab425a896" data-image-src=3D"/download/attachments/55393319/UlUEB1MC.jp=
+g?version=3D1&amp;modificationDate=3D1500479546000&amp;api=3Dv2" data-unres=
+olved-comment-count=3D"0" data-linked-resource-id=3D"67676093" data-linked-=
+resource-version=3D"1" data-linked-resource-type=3D"attachment" data-linked=
+-resource-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluenc=
+e" data-linked-resource-content-type=3D"image/jpeg" data-linked-resource-co=
+ntainer-id=3D"55393319" data-linked-resource-container-version=3D"336" heig=
+ht=3D"16"></span></a></li>
+<li>Spend time to look at the warnings and address anything that is of conc=
+ern</li>
+</ul>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>Click <a href=3D"/display/QAPOW/Coding+Guidance">here</a> for more detai=
+ls on <a href=3D"/display/QAPOW/Coding+Guidance">Coding Guidance</a></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout two-equal" data-layout=3D"two-equal">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"QualityDevelopmentLifeCycle(QDLC)-Compile/Build"><a href=3D"https=
+://confluence/pages/viewpage.action?pageId=3D58410739" rel=3D"nofollow">Com=
+pile / </a><a href=3D"https://confluence/pages/viewpage.action?pageId=3D584=
+10739" rel=3D"nofollow">Build</a></h1>
+<div id=3D"expander-646031070" class=3D"expand-container">
+<div id=3D"expander-control-646031070" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Why</span>
+</div>
+<div id=3D"expander-content-646031070" class=3D"expand-content">
+<p><span>To ensure all the different changes work together and the code is =
+working. Only ensures code works and not that the feature works.</span></p>
+</div>
+</div>
+<div id=3D"expander-228714931" class=3D"expand-container">
+<div id=3D"expander-control-228714931" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">How</span>
+</div>
+<div id=3D"expander-content-228714931" class=3D"expand-content">
+<div>
+Can be accomplished from the IDE or the command line
+</div>
+<div>
+<p><strong>Daily Builds:</strong>&nbsp;Have a build definition for schedule=
+d builds. Aim for a daily schedule with builds released to the internal SWE=
+ environment by the end of each day.</p>
+<p><strong>One-click builds for non-internal environments:</strong>&nbsp;Fo=
+r Integration/UAT environments, you automate the builds. Instead of schedul=
+ing them on a per day basis, you can trigger them by queuing them in VSTF. =
+(The reason for not scheduling them is that a build is not required on Inte=
+gration/UAT environments on a daily basis. Rather, they tend to happen on a=
+n as-needed basis. This will depend on your team's needs and you can adopt =
+the rhythm that works best for your team.)</p>
+<p><strong>Gated Check-ins:</strong>&nbsp;Set up gated check-ins to ensure =
+that only code that complies and passed unit testing gets checked in. It en=
+sures that code quality remains high and that there are no broken builds. I=
+ntegrate Fortify and Code Analysis to get further insight into code quality=
+.</p>
+<p><strong>Code Analysis Integrations:</strong>&nbsp;To get insight into wh=
+ether the code is of good quality or if any changes need to be made, integr=
+ate&nbsp;<strong>Code Analysis</strong>&nbsp;into the build definitions and=
+ set the threshold to low. The changes can be identified and fixed early, w=
+hich is required in the Agile world.</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 99.=
+8445%;">
+<colgroup>
+<col style=3D"width: 34.9454%;">
+<col style=3D"width: 19.1888%;">
+<col style=3D"width: 20.9048%;">
+<col style=3D"width: 24.961%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Tool</th>
+<th class=3D"confluenceTh">Licensing Model</th>
+<th class=3D"confluenceTh">On-Prem/SaaS</th>
+<th class=3D"confluenceTh">Supported Tech Stack</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"http://tfs/tfs" class=3D"external-lin=
+k" rel=3D"nofollow">TFS</a> Build (<a href=3D"https://confluence/display/EN=
+TSRV/2017/03/10/Builds+Series+-+Part+01%3A+Architecture" rel=3D"nofollow">v=
+Next </a>Build steps)</td>
+<td class=3D"confluenceTd">MSDN</td>
+<td class=3D"confluenceTd">On-Prem</td>
+<td class=3D"confluenceTd">All</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">VSTS (Visual Studio Team System)</=
+td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>MSDN</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem</td>
+<td colspan=3D"1" class=3D"confluenceTd">.Net FW / Core</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://confluence/disp=
+lay/HAL/Hal" rel=3D"nofollow">HAL&nbsp;</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">Free</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>On-Prem</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">All</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://circleci.foc.zo=
+ne/" class=3D"external-link" rel=3D"nofollow">CircleCI</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">Licensed</td>
+<td colspan=3D"1" class=3D"confluenceTd">SaaS</td>
+<td colspan=3D"1" class=3D"confluenceTd">All</td>
+</tr>
+</tbody>
+</table>
+</div>
+<em>NOTE:&nbsp;If there is a tool not listed here that your team uses, plea=
+se inform QAPOW or add a comment here</em>
+</div>
+</div>
+</div>
+<div id=3D"expander-1168784764" class=3D"expand-container">
+<div id=3D"expander-control-1168784764" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Quality Gates</span>
+</div>
+<div id=3D"expander-content-1168784764" class=3D"expand-content">
+<p><span>At the end of this step you'll have:</span></p>
+<ul>
+<li>Gated Check-ins: running various tests<span class=3D"confluence-embedde=
+d-file-wrapper confluence-embedded-manual-size"><img class=3D"confluence-em=
+bedded-image confluence-thumbnail" width=3D"16" src=3D"da88547694247e64d40d=
+d02ab425a896" data-image-src=3D"/download/attachments/55393319/UlUEB1MC.jpg=
+?version=3D1&amp;modificationDate=3D1500479546000&amp;api=3Dv2" data-unreso=
+lved-comment-count=3D"0" data-linked-resource-id=3D"67676093" data-linked-r=
+esource-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-=
+resource-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence=
+" data-linked-resource-content-type=3D"image/jpeg" data-linked-resource-con=
+tainer-id=3D"55393319" data-linked-resource-container-version=3D"336" heigh=
+t=3D"16"></span></li>
+<li>Code Analysis (E.g. Re-Sharper, Sonar Qube, Checkmarx, Fortify, etc.)<s=
+pan class=3D"confluence-embedded-file-wrapper confluence-embedded-manual-si=
+ze"><img class=3D"confluence-embedded-image confluence-thumbnail" width=3D"=
+16" src=3D"da88547694247e64d40dd02ab425a896" data-image-src=3D"/download/at=
+tachments/55393319/UlUEB1MC.jpg?version=3D1&amp;modificationDate=3D15004795=
+46000&amp;api=3Dv2" data-unresolved-comment-count=3D"0" data-linked-resourc=
+e-id=3D"67676093" data-linked-resource-version=3D"1" data-linked-resource-t=
+ype=3D"attachment" data-linked-resource-default-alias=3D"UlUEB1MC.jpg" data=
+-base-url=3D"https://confluence" data-linked-resource-content-type=3D"image=
+/jpeg" data-linked-resource-container-id=3D"55393319" data-linked-resource-=
+container-version=3D"336" height=3D"16"></span></li>
+<li>Automated builds (CI) so that tests can be run often without manual int=
+ervention<span class=3D"confluence-embedded-file-wrapper confluence-embedde=
+d-manual-size"><img class=3D"confluence-embedded-image confluence-thumbnail=
+" width=3D"16" src=3D"da88547694247e64d40dd02ab425a896" data-image-src=3D"/=
+download/attachments/55393319/UlUEB1MC.jpg?version=3D1&amp;modificationDate=
+=3D1500479546000&amp;api=3Dv2" data-unresolved-comment-count=3D"0" data-lin=
+ked-resource-id=3D"67676093" data-linked-resource-version=3D"1" data-linked=
+-resource-type=3D"attachment" data-linked-resource-default-alias=3D"UlUEB1M=
+C.jpg" data-base-url=3D"https://confluence" data-linked-resource-content-ty=
+pe=3D"image/jpeg" data-linked-resource-container-id=3D"55393319" data-linke=
+d-resource-container-version=3D"336" height=3D"16"></span></li>
+</ul>
+</div>
+</div>
+<p><span style=3D"color: rgb(255,255,255);"><span style=3D"color: rgb(0,0,0=
+);"><br></span></span></p>
+<p><span style=3D"color: rgb(255,255,255);"><span style=3D"color: rgb(0,0,0=
+);">Click</span> </span><a href=3D"/pages/viewpage.action?pageId=3D58410739=
+">here</a> for more details on <a href=3D"/pages/viewpage.action?pageId=3D5=
+8410739">Compiling and Building</a></p>
+</div>=20
+</div>=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"QualityDevelopmentLifeCycle(QDLC)-UnitTesting"><a href=3D"https:/=
+/confluence/display/SCC/Unit+Testing+Guidance" rel=3D"nofollow">Unit Testin=
+g</a></h1>
+<div id=3D"expander-1834124587" class=3D"expand-container">
+<div id=3D"expander-control-1834124587" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Why</span>
+</div>
+<div id=3D"expander-content-1834124587" class=3D"expand-content">
+<p><span>To ensure all code has been tested at the unit level. This transla=
+tes to test coverage for all lines of code&nbsp;</span></p>
+</div>
+</div>
+<div id=3D"expander-560109569" class=3D"expand-container">
+<div id=3D"expander-control-560109569" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">How</span>
+</div>
+<div id=3D"expander-content-560109569" class=3D"expand-content">
+<p>Can be accomplished from the IDE or the command line.</p>
+<p>It may be wise to just run a particular subset of tests more often. This=
+ can be achieved by using "annotations" which means adding tags to tests. T=
+he full test suite must still be run periodically.</p>
+<p>It is usually a good idea to have unit tests running as part of a automa=
+ted build so that they can be run often and without manual intervention. Th=
+is will help to quickly identify an issue and resolve it promptly.</p>
+<p><span>Unit test suites must run in a reasonable amount of time which in =
+turn would encourage developers to run them often and give them the confide=
+nce that their changes are not affecting existing functionality.&nbsp;</spa=
+n></p>
+<p class=3D"_mce_tagged_br">&nbsp;</p>
+<div class=3D"O1 _mce_tagged_br">
+QE=E2=80=99s can pair with Developers when writing unit tests. This gives i=
+nsight into the different methods and what each one of them does.
+</div>
+<div class=3D"O1 _mce_tagged_br">
+When encountering a stack trace, QE=E2=80=99s can go through the code and u=
+nderstand why the code is failing and provide that information to the devel=
+oper which will speed up the fix time.
+</div>
+<div class=3D"O1 _mce_tagged_br">
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 129.0px;">
+<col style=3D"width: 141.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Tool</th>
+<th class=3D"confluenceTh">Licensing Model</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">MSTest</td>
+<td colspan=3D"1" class=3D"confluenceTd">Free</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">NUnit</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>Free</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">PHPUnit</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>Free</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">XUnit</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>Free</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<em>NOTE:&nbsp;There are many unit testing tools out there, for every tech =
+stack. If there is a tool not listed here that your team uses, please infor=
+m QAPOW or add a comment here</em>
+</div>
+</div>
+</div>
+<div id=3D"expander-382365325" class=3D"expand-container">
+<div id=3D"expander-control-382365325" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Quality Gates</span>
+</div>
+<div id=3D"expander-content-382365325" class=3D"expand-content">
+<p class=3D"_mce_tagged_br"><span>At the end of this step you'll have:</spa=
+n></p>
+<ul>
+<li class=3D"_mce_tagged_br"><p class=3D"_mce_tagged_br">The setup complete=
+d to run unit tests against their code<span class=3D"confluence-embedded-fi=
+le-wrapper confluence-embedded-manual-size"><img class=3D"confluence-embedd=
+ed-image confluence-thumbnail" width=3D"16" src=3D"da88547694247e64d40dd02a=
+b425a896" data-image-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?ver=
+sion=3D1&amp;modificationDate=3D1500479546000&amp;api=3Dv2" data-unresolved=
+-comment-count=3D"0" data-linked-resource-id=3D"67676093" data-linked-resou=
+rce-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-reso=
+urce-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence" da=
+ta-linked-resource-content-type=3D"image/jpeg" data-linked-resource-contain=
+er-id=3D"55393319" data-linked-resource-container-version=3D"336" height=3D=
+"16"></span></p></li>
+<li class=3D"_mce_tagged_br">
+<div class=3D"O1 _mce_tagged_br">
+Write the required unit tests
+<span class=3D"confluence-embedded-file-wrapper confluence-embedded-manual-=
+size"><img class=3D"confluence-embedded-image confluence-thumbnail" width=
+=3D"16" src=3D"da88547694247e64d40dd02ab425a896" data-image-src=3D"/downloa=
+d/attachments/55393319/UlUEB1MC.jpg?version=3D1&amp;modificationDate=3D1500=
+479546000&amp;api=3Dv2" data-unresolved-comment-count=3D"0" data-linked-res=
+ource-id=3D"67676093" data-linked-resource-version=3D"1" data-linked-resour=
+ce-type=3D"attachment" data-linked-resource-default-alias=3D"UlUEB1MC.jpg" =
+data-base-url=3D"https://confluence" data-linked-resource-content-type=3D"i=
+mage/jpeg" data-linked-resource-container-id=3D"55393319" data-linked-resou=
+rce-container-version=3D"336" height=3D"16"></span>
+</div></li>
+<li class=3D"_mce_tagged_br"><p class=3D"_mce_tagged_br">All unit tests mus=
+t pass without errors and run in a reasonable amount of time <span>(new and=
+ existing)<span class=3D"confluence-embedded-file-wrapper confluence-embedd=
+ed-manual-size"><img class=3D"confluence-embedded-image confluence-thumbnai=
+l" width=3D"16" src=3D"da88547694247e64d40dd02ab425a896" data-image-src=3D"=
+/download/attachments/55393319/UlUEB1MC.jpg?version=3D1&amp;modificationDat=
+e=3D1500479546000&amp;api=3Dv2" data-unresolved-comment-count=3D"0" data-li=
+nked-resource-id=3D"67676093" data-linked-resource-version=3D"1" data-linke=
+d-resource-type=3D"attachment" data-linked-resource-default-alias=3D"UlUEB1=
+MC.jpg" data-base-url=3D"https://confluence" data-linked-resource-content-t=
+ype=3D"image/jpeg" data-linked-resource-container-id=3D"55393319" data-link=
+ed-resource-container-version=3D"336" height=3D"16"></span></span></p></li>
+</ul>
+<div>
+Note: For all new application development, we recommend at least 75% Code C=
+overage. This will be required for applications wanting to implement Contin=
+uous Deployments.
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>Click <a href=3D"https://confluence/display/QAPOW/Unit+Testing" rel=3D"n=
+ofollow">here</a>&nbsp;more details on <a href=3D"/display/QAPOW/Unit+Testi=
+ng">Unit Testing</a></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout two-equal" data-layout=3D"two-equal">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"QualityDevelopmentLifeCycle(QDLC)-Deploy"><a href=3D"https://conf=
+luence/display/QAPOW/Deploy+Application" rel=3D"nofollow">Deploy</a></h1>
+<div id=3D"expander-244830930" class=3D"expand-container">
+<div id=3D"expander-control-244830930" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Why</span>
+</div>
+<div id=3D"expander-content-244830930" class=3D"expand-content">
+<p><span>To release application changes (new features, bug fixes) to an env=
+ironment (test, beta, production)</span></p>
+</div>
+</div>
+<div id=3D"expander-681875900" class=3D"expand-container">
+<div id=3D"expander-control-681875900" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">How</span>
+</div>
+<div id=3D"expander-content-681875900" class=3D"expand-content">
+Continuous Deployment Pipeline in place using a release orchestration tools=
+ (e.g. HAL)
+<p>Create <a href=3D"https://confluence/display/QAPOW/Deployment+Diagram" r=
+el=3D"nofollow">Deployment Diagrams</a>, which are&nbsp;living documents th=
+at detail the deployable components, the relationship to other components, =
+and the information required to deploy or maintain the system and must be a=
+vailable before a deploy.</p>
+<p>Implement a <a href=3D"https://confluence/display/QAPOW/Push+plan" rel=
+=3D"nofollow">Push Plan </a>to layout the deployment process.</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 86.=
+3142%;">
+<colgroup>
+<col style=3D"width: 14.4404%;">
+<col style=3D"width: 23.6462%;">
+<col style=3D"width: 25.4513%;">
+<col style=3D"width: 36.4621%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Tool</th>
+<th class=3D"confluenceTh">Licensing Model</th>
+<th class=3D"confluenceTh">On-Prem/Cloud</th>
+<th class=3D"confluenceTh">Supported Tech Stack</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">TFS</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>MSDN</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem/Cloud</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>All</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">HAL9000</td>
+<td colspan=3D"1" class=3D"confluenceTd">Free</td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem/Cloud</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>All</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">CircleCI</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>Licensed</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>On-Prem/Cloud</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">All (**except .NET FW)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>NOTE:&nbsp;If there is a tool not listed here that your team uses, p=
+lease inform QAPOW or add a comment here</em></p>
+</div>
+</div>
+<div id=3D"expander-1080939248" class=3D"expand-container">
+<div id=3D"expander-control-1080939248" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Quality Gates</span>
+</div>
+<div id=3D"expander-content-1080939248" class=3D"expand-content">
+<p><span>At the end of this step you'll have:</span></p>
+<ul>
+<li><span>Deployment diagram(s)<span class=3D"confluence-embedded-file-wrap=
+per confluence-embedded-manual-size"><img class=3D"confluence-embedded-imag=
+e confluence-thumbnail" width=3D"16" src=3D"da88547694247e64d40dd02ab425a89=
+6" data-image-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?version=3D=
+1&amp;modificationDate=3D1500479546000&amp;api=3Dv2" data-unresolved-commen=
+t-count=3D"0" data-linked-resource-id=3D"67676093" data-linked-resource-ver=
+sion=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-de=
+fault-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence" data-link=
+ed-resource-content-type=3D"image/jpeg" data-linked-resource-container-id=
+=3D"55393319" data-linked-resource-container-version=3D"336" height=3D"16">=
+</span></span></li>
+<li>Application changes tracked as a part of the Change Review Process</li>
+<li>Ability to rollback and restore everything to the state before the depl=
+oy in case of errors<span class=3D"confluence-embedded-file-wrapper conflue=
+nce-embedded-manual-size"><img class=3D"confluence-embedded-image confluenc=
+e-thumbnail" width=3D"16" src=3D"da88547694247e64d40dd02ab425a896" data-ima=
+ge-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?version=3D1&amp;modif=
+icationDate=3D1500479546000&amp;api=3Dv2" data-unresolved-comment-count=3D"=
+0" data-linked-resource-id=3D"67676093" data-linked-resource-version=3D"1" =
+data-linked-resource-type=3D"attachment" data-linked-resource-default-alias=
+=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence" data-linked-resource=
+-content-type=3D"image/jpeg" data-linked-resource-container-id=3D"55393319"=
+ data-linked-resource-container-version=3D"336" height=3D"16"></span></li>
+<li>Continuous deployments using Release Orchestration Tools (no manual dep=
+loyments)<span class=3D"confluence-embedded-file-wrapper confluence-embedde=
+d-manual-size"><img class=3D"confluence-embedded-image confluence-thumbnail=
+" width=3D"16" src=3D"da88547694247e64d40dd02ab425a896" data-image-src=3D"/=
+download/attachments/55393319/UlUEB1MC.jpg?version=3D1&amp;modificationDate=
+=3D1500479546000&amp;api=3Dv2" data-unresolved-comment-count=3D"0" data-lin=
+ked-resource-id=3D"67676093" data-linked-resource-version=3D"1" data-linked=
+-resource-type=3D"attachment" data-linked-resource-default-alias=3D"UlUEB1M=
+C.jpg" data-base-url=3D"https://confluence" data-linked-resource-content-ty=
+pe=3D"image/jpeg" data-linked-resource-container-id=3D"55393319" data-linke=
+d-resource-container-version=3D"336" height=3D"16"></span></li>
+<li>Everything must work as expected after a deploy (this can be verified b=
+y running system and integration tests)<span class=3D"confluence-embedded-f=
+ile-wrapper confluence-embedded-manual-size"><img class=3D"confluence-embed=
+ded-image confluence-thumbnail" width=3D"16" src=3D"da88547694247e64d40dd02=
+ab425a896" data-image-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?ve=
+rsion=3D1&amp;modificationDate=3D1500479546000&amp;api=3Dv2" data-unresolve=
+d-comment-count=3D"0" data-linked-resource-id=3D"67676093" data-linked-reso=
+urce-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-res=
+ource-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence" d=
+ata-linked-resource-content-type=3D"image/jpeg" data-linked-resource-contai=
+ner-id=3D"55393319" data-linked-resource-container-version=3D"336" height=
+=3D"16"></span></li>
+<li>Push plans implemented</li>
+<li>See: <a href=3D"https://confluence/display/KBR/Deployment+Expectations"=
+ rel=3D"nofollow">Deployment Expectations<span class=3D"confluence-embedded=
+-file-wrapper confluence-embedded-manual-size"><img class=3D"confluence-emb=
+edded-image confluence-thumbnail" width=3D"16" src=3D"da88547694247e64d40dd=
+02ab425a896" data-image-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?=
+version=3D1&amp;modificationDate=3D1500479546000&amp;api=3Dv2" data-unresol=
+ved-comment-count=3D"0" data-linked-resource-id=3D"67676093" data-linked-re=
+source-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-r=
+esource-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence"=
+ data-linked-resource-content-type=3D"image/jpeg" data-linked-resource-cont=
+ainer-id=3D"55393319" data-linked-resource-container-version=3D"336" height=
+=3D"16"></span></a></li>
+</ul>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>Click <a href=3D"/display/QAPOW/Deploy+Application">here</a> for more in=
+fo on <a href=3D"/display/QAPOW/Deploy+Application">Deploying Application</=
+a></p>
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"QualityDevelopmentLifeCycle(QDLC)-System&amp;IntegrationTesting(T=
+estExecution)"><a href=3D"https://confluence/pages/viewpage.action?pageId=
+=3D58403564" rel=3D"nofollow">System &amp; Integration Testing (Test Execut=
+ion)</a></h1>
+<div id=3D"expander-1964756643" class=3D"expand-container">
+<div id=3D"expander-control-1964756643" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Why</span>
+</div>
+<div id=3D"expander-content-1964756643" class=3D"expand-content">
+<p><span class=3D"inline-comment-marker" data-ref=3D"912c0605-6aec-4641-add=
+5-f9e000d0b3d9">To ensure our changes work with other internal/external ser=
+vices and applications</span></p>
+<p><span>Developer should have the ability to run integration tests against=
+ their code</span></p>
+<ul>
+<li>Help them to fix issues faster</li>
+<li class=3D"O1">Reduce resource (server) usage<span class=3D"inline-commen=
+t-marker" data-ref=3D"912c0605-6aec-4641-add5-f9e000d0b3d9"><br></span></li=
+>
+</ul>
+</div>
+</div>
+<div id=3D"expander-1326252755" class=3D"expand-container">
+<div id=3D"expander-control-1326252755" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">How</span>
+</div>
+<div id=3D"expander-content-1326252755" class=3D"expand-content">
+<p>Can be accomplished from the IDE or the command line</p>
+<p><span>It is usually a good idea to have unit tests running as part of a =
+automated build so that they can be run often and without manual interventi=
+on</span></p>
+<p><span>Integration test suites must run in a reasonable amount of time wh=
+ich in turn would encourage developers to run them often and give them the =
+confidence that their changes are not affecting existing functionality</spa=
+n></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Tool</th>
+<th class=3D"confluenceTh">Licensing Model</th>
+<th class=3D"confluenceTh">On-Prem/SaaS</th>
+<th class=3D"confluenceTh">Supported Tech Stack</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">Visual Studio</td>
+<td colspan=3D"1" class=3D"confluenceTd">Free w/ MSDN</td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem</td>
+<td colspan=3D"1" class=3D"confluenceTd">C#, .NET</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">Visual Studio Code</td>
+<td colspan=3D"1" class=3D"confluenceTd">Free</td>
+<td colspan=3D"1" class=3D"confluenceTd">On-Prem</td>
+<td colspan=3D"1" class=3D"confluenceTd">C#, .NET</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Selenium</td>
+<td class=3D"confluenceTd">Free</td>
+<td class=3D"confluenceTd">Downloadable</td>
+<td class=3D"confluenceTd">N/A</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><span><em>NOTE:&nbsp;If there is a tool not listed here that your team u=
+ses, please inform QAPOW or add a comment here</em></span></p>
+</div>
+</div>
+<div id=3D"expander-1114147921" class=3D"expand-container">
+<div id=3D"expander-control-1114147921" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Quality Gates</span>
+</div>
+<div id=3D"expander-content-1114147921" class=3D"expand-content">
+<p><span style=3D"color: rgb(128,0,128);"><span style=3D"color: rgb(0,0,0);=
+"><span>At the end of this step you'll have run all:</span></span></span><s=
+pan style=3D"color: rgb(128,0,128);"><span style=3D"color: rgb(0,0,0);"><sp=
+an><br></span></span></span></p>
+<ul>
+<li>Integration tests (WebSvc/API, Component, DB's)<span class=3D"confluenc=
+e-embedded-file-wrapper confluence-embedded-manual-size"><img class=3D"conf=
+luence-embedded-image confluence-thumbnail" width=3D"16" src=3D"da885476942=
+47e64d40dd02ab425a896" data-image-src=3D"/download/attachments/55393319/UlU=
+EB1MC.jpg?version=3D1&amp;modificationDate=3D1500479546000&amp;api=3Dv2" da=
+ta-unresolved-comment-count=3D"0" data-linked-resource-id=3D"67676093" data=
+-linked-resource-version=3D"1" data-linked-resource-type=3D"attachment" dat=
+a-linked-resource-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https://c=
+onfluence" data-linked-resource-content-type=3D"image/jpeg" data-linked-res=
+ource-container-id=3D"55393319" data-linked-resource-container-version=3D"3=
+36" height=3D"16"></span></li>
+<li>Performance tests<span class=3D"confluence-embedded-file-wrapper conflu=
+ence-embedded-manual-size"><img class=3D"confluence-embedded-image confluen=
+ce-thumbnail" width=3D"16" src=3D"da88547694247e64d40dd02ab425a896" data-im=
+age-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?version=3D1&amp;modi=
+ficationDate=3D1500479546000&amp;api=3Dv2" data-unresolved-comment-count=3D=
+"0" data-linked-resource-id=3D"67676093" data-linked-resource-version=3D"1"=
+ data-linked-resource-type=3D"attachment" data-linked-resource-default-alia=
+s=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence" data-linked-resourc=
+e-content-type=3D"image/jpeg" data-linked-resource-container-id=3D"55393319=
+" data-linked-resource-container-version=3D"336" height=3D"16"></span></li>
+<li>System (functional, regression, smoke, etc.) tests<span class=3D"conflu=
+ence-embedded-file-wrapper confluence-embedded-manual-size"><img class=3D"c=
+onfluence-embedded-image confluence-thumbnail" width=3D"16" src=3D"da885476=
+94247e64d40dd02ab425a896" data-image-src=3D"/download/attachments/55393319/=
+UlUEB1MC.jpg?version=3D1&amp;modificationDate=3D1500479546000&amp;api=3Dv2"=
+ data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"67676093" d=
+ata-linked-resource-version=3D"1" data-linked-resource-type=3D"attachment" =
+data-linked-resource-default-alias=3D"UlUEB1MC.jpg" data-base-url=3D"https:=
+//confluence" data-linked-resource-content-type=3D"image/jpeg" data-linked-=
+resource-container-id=3D"55393319" data-linked-resource-container-version=
+=3D"336" height=3D"16"></span></li>
+<li>Security tests<span class=3D"confluence-embedded-file-wrapper confluenc=
+e-embedded-manual-size"><img class=3D"confluence-embedded-image confluence-=
+thumbnail" width=3D"16" src=3D"da88547694247e64d40dd02ab425a896" data-image=
+-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?version=3D1&amp;modific=
+ationDate=3D1500479546000&amp;api=3Dv2" data-unresolved-comment-count=3D"0"=
+ data-linked-resource-id=3D"67676093" data-linked-resource-version=3D"1" da=
+ta-linked-resource-type=3D"attachment" data-linked-resource-default-alias=
+=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence" data-linked-resource=
+-content-type=3D"image/jpeg" data-linked-resource-container-id=3D"55393319"=
+ data-linked-resource-container-version=3D"336" height=3D"16"></span></li>
+<li>End-to-End tests<span class=3D"confluence-embedded-file-wrapper conflue=
+nce-embedded-manual-size"><img class=3D"confluence-embedded-image confluenc=
+e-thumbnail" width=3D"16" src=3D"da88547694247e64d40dd02ab425a896" data-ima=
+ge-src=3D"/download/attachments/55393319/UlUEB1MC.jpg?version=3D1&amp;modif=
+icationDate=3D1500479546000&amp;api=3Dv2" data-unresolved-comment-count=3D"=
+0" data-linked-resource-id=3D"67676093" data-linked-resource-version=3D"1" =
+data-linked-resource-type=3D"attachment" data-linked-resource-default-alias=
+=3D"UlUEB1MC.jpg" data-base-url=3D"https://confluence" data-linked-resource=
+-content-type=3D"image/jpeg" data-linked-resource-container-id=3D"55393319"=
+ data-linked-resource-container-version=3D"336" height=3D"16"></span></li>
+</ul>
+<p>All tests, new and existing, must pass without errors (100% pass).</p>
+<p><br></p>
+<div id=3D"expander-1048894143" class=3D"expand-container">
+<div id=3D"expander-control-1048894143" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Bug resolution cycle steps</span>
+</div>
+<div id=3D"expander-content-1048894143" class=3D"expand-content">
+<p> <map id=3D"gliffy-map-116064877-5870" name=3D"gliffy-map-116064877-5870=
+"></map> </p>
+<table width=3D"100%" class=3D"gliffy-macro-table">=20
+<tbody>
+<tr>=20
+<td>=20
+<table class=3D"gliffy-macro-inner-table">=20
+<caption align=3D"bottom">=20
+</caption>=20
+<tbody>
+<tr>=20
+<td> <img style=3D"border: none; width: 300px;" usemap=3D"#gliffy-map-11606=
+4877-5870" src=3D"/download/attachments/55393319/Bug%20life%20Cycle.png?ver=
+sion=3D2&amp;modificationDate=3D1542030466000&amp;api=3Dv2" alt=3D"" class=
+=3D"gliffy-macro-image"> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<p></p>
+<p><strong>Bug or defect&nbsp;life cycle includes following steps:</strong>=
+</p>
+<p style=3D"list-style-type: decimal;"><strong>New Problem/Bug:</strong>&nb=
+sp;&nbsp;When a defect is logged and posted for the first time. It=E2=80=99=
+s state is given as<strong> </strong>new.<br><br></p>
+<p style=3D"list-style-type: decimal;"><strong>Assigned:&nbsp;&nbsp;</stron=
+g>After the tester has posted the bug, the lead of the tester approves that=
+ the bug is genuine and he assigns the bug to corresponding developer and t=
+he developer team. It=E2=80=99s state given as assigned.<br><br></p>
+<p style=3D"list-style-type: decimal;"><strong>Open:</strong>&nbsp;&nbsp;At=
+&nbsp; this state the developer has started analyzing and working on the de=
+fect fix.<br><br>3(A). <strong>Duplicate:&nbsp;</strong>If the bug is repea=
+ted twice or the two bugs mention the same concept of the bug, then one bug=
+ status is changed to =E2=80=9Cduplicate=E2=80=9C.<br><br>3(B). <strong>Def=
+erred:&nbsp;</strong>The bug, changed to deferred state means the bug is ex=
+pected to be fixed in next releases. The reasons for changing the bug to th=
+is state have many factors. Some of them are&nbsp;priority&nbsp;of the bug =
+may be low, lack of time for the release or the bug may not have major effe=
+ct on the software.<br><br>3(C.) <strong>Root Cause Analysis (RCA):</strong=
+> It <span style=3D"color: rgb(34,34,34);">is a method of&nbsp;</span>probl=
+em solving<span style=3D"color: rgb(34,34,34);">&nbsp;used for identifying =
+the&nbsp;</span>root causes<span style=3D"color: rgb(34,34,34);">&nbsp;of f=
+aults or problems/bug.</span><br><br></p>
+<p style=3D"list-style-type: decimal;"><strong>Fixed:</strong>&nbsp;&nbsp;W=
+hen developer makes necessary code changes and verifies the changes then he=
+/she can make bug status as =E2=80=98Fixed=E2=80=99 and the bug is passed t=
+o testing team.<br><br></p>
+<p style=3D"list-style-type: decimal;"><strong>Pending retest:</strong>&nbs=
+p;&nbsp;After fixing the defect the developer has given that particular cod=
+e for retesting to the tester. Here the testing is pending on the testers e=
+nd. Hence its status is pending retest.<br><br></p>
+<p style=3D"list-style-type: decimal;"><strong>Retest:</strong>&nbsp;&nbsp;=
+At this stage the tester do the retesting of the changed code which develop=
+er has given to him to check whether the defect got fixed or not.<br><br></=
+p>
+<p style=3D"list-style-type: decimal;"><strong>Reopen:</strong>&nbsp;&nbsp;=
+If the bug still exists even after the bug is fixed by the developer, the t=
+ester changes the status to =E2=80=9Creopened=E2=80=9D. The bug goes throug=
+h the life cycle once again.<br><br></p>
+<p style=3D"list-style-type: decimal;"><strong>Closed:</strong>&nbsp;&nbsp;=
+Once the bug is fixed, it is tested by the tester. If the tester feels that=
+ the bug no longer exists in the software, he changes the status of the bug=
+ to =E2=80=9Cclosed=E2=80=9D. This state means that the bug is fixed, teste=
+d and approved.</p>
+</div>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>Click <a href=3D"/pages/viewpage.action?pageId=3D58403564">here</a> for =
+more details on <a href=3D"/pages/viewpage.action?pageId=3D58403564">System=
+ &amp; Integration Testing</a></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout two-equal" data-layout=3D"two-equal">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"QualityDevelopmentLifeCycle(QDLC)-ProdPush"><span style=3D"color:=
+ rgb(0,0,255);"><a href=3D"https://confluence/display/QAPOW/Post+Launch" re=
+l=3D"nofollow">Prod Push</a></span></h1>
+<div id=3D"expander-362921036" class=3D"expand-container">
+<div id=3D"expander-control-362921036" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Why</span>
+</div>
+<div id=3D"expander-content-362921036" class=3D"expand-content">
+<p>To ensure that the process of deploying to production is consistent, doc=
+umented, and communicated</p>
+</div>
+</div>
+<div id=3D"expander-617796208" class=3D"expand-container">
+<div id=3D"expander-control-617796208" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">How</span>
+</div>
+<div id=3D"expander-content-617796208" class=3D"expand-content">
+<p>By following a consistent, repeatable process, teams will be able to aut=
+omate the process of pushing to Production. Automating the process ensures =
+quality and is less prone to errors</p>
+</div>
+</div>
+<div id=3D"expander-101604219" class=3D"expand-container">
+<div id=3D"expander-control-101604219" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Quality Gates</span>
+</div>
+<div id=3D"expander-content-101604219" class=3D"expand-content">
+<p class=3D"_mce_tagged_br">At the end of this step you'll have:</p>
+<ul>
+<li class=3D"_mce_tagged_br"><a href=3D"/display/QAPOWArchive/Push+%28Deplo=
+yment%29+Plan+Examples">Push (Deployment) Plan</a></li>
+<li class=3D"_mce_tagged_br">Fully tested and successfully deployed applica=
+tion in Production</li>
+<li class=3D"_mce_tagged_br">Completely automated deployment to Production<=
+/li>
+</ul>
+</div>
+</div>
+<p>&nbsp;</p>
+<p><span style=3D"color: rgb(0,0,0);">Click&nbsp;</span><a href=3D"/pages/v=
+iewpage.action?pageId=3D59500830">here</a><strong>&nbsp;</strong>for more i=
+nfo on <a href=3D"/pages/viewpage.action?pageId=3D59500830">Prod Push</a></=
+p>
+</div>=20
+</div>=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"QualityDevelopmentLifeCycle(QDLC)-Maintenance"><span style=3D"col=
+or: rgb(0,0,255);"><a href=3D"https://confluence/display/QAPOW/Post+Launch"=
+ rel=3D"nofollow">Maintenance</a></span>&nbsp;</h1>
+<div id=3D"expander-160435893" class=3D"expand-container">
+<div id=3D"expander-control-160435893" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Why</span>
+</div>
+<div id=3D"expander-content-160435893" class=3D"expand-content">
+<p>To ensure quality when a project enters the Maintenance phase</p>
+</div>
+</div>
+<div id=3D"expander-255754953" class=3D"expand-container">
+<div id=3D"expander-control-255754953" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">How</span>
+</div>
+<div id=3D"expander-content-255754953" class=3D"expand-content">
+<ul>
+<li>Integrating corrective action / remediation from any "Deep Dive Take-Aw=
+ays" : Open / Completed</li>
+<li><p>Monitoring + Alerting</p></li>
+<li>Logging</li>
+<li><a href=3D"https://confluence/display/QAPOW/Post+Launch" rel=3D"nofollo=
+w">Post Launch</a></li>
+</ul>
+</div>
+</div>
+<div id=3D"expander-1400049734" class=3D"expand-container">
+<div id=3D"expander-control-1400049734" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Quality Gates</span>
+</div>
+<div id=3D"expander-content-1400049734" class=3D"expand-content">
+<p class=3D"_mce_tagged_br"><span>At the end of this step you'll have:</spa=
+n></p>
+<ul>
+<li class=3D"_mce_tagged_br">All post-launch steps have been fully executed=
+</li>
+<li class=3D"_mce_tagged_br">Monitoring and Alerting must be setup for all =
+applications</li>
+<li class=3D"_mce_tagged_br">Proper logging must be setup and enabled</li>
+</ul>
+</div>
+</div>
+<p>&nbsp;</p>
+<p><span style=3D"color: rgb(0,0,0);">Click&nbsp;</span><a href=3D"https://=
+confluence/display/QAPOW/Maintenance" rel=3D"nofollow">here</a>&nbsp;for mo=
+re info on <a href=3D"/display/QAPOWArchive/Maintenance">Maintenance</a></p=
+>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"QualityDevelopmentLifeCycle(QDLC)-General"><a href=3D"https://con=
+fluence/display/QAPOW/General" rel=3D"nofollow">General</a></h1>
+<div id=3D"expander-1393420475" class=3D"expand-container">
+<div id=3D"expander-control-1393420475" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Why</span>
+</div>
+<div id=3D"expander-content-1393420475" class=3D"expand-content">
+<p>Quality processes and techniques that fall under one or more of the abov=
+e sections</p>
+</div>
+</div>
+<div id=3D"expander-353256498" class=3D"expand-container">
+<div id=3D"expander-control-353256498" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">How</span>
+</div>
+<div id=3D"expander-content-353256498" class=3D"expand-content">
+<ul>
+<li><a href=3D"https://confluence/pages/viewpage.action?pageId=3D60297553" =
+rel=3D"nofollow">Continuous Integration / Continuous Deploymen</a>t</li>
+<li><a href=3D"https://confluence/Continuous%20Integration%20High-Availabil=
+ity%20/%20Disaster%20Recovery%20Plan%20Continuous%20Deployment" rel=3D"nofo=
+llow">High-Availability / Disaster Recovery Plan</a></li>
+<li>QE=E2=80=99s can pair with Developers when writing unit,&nbsp;integrati=
+on tests, etc.</li>
+<li>When encountering a stack trace, QE=E2=80=99s can go through the code a=
+nd understand why the code is failing and provide that information to the d=
+eveloper which will speed up the fix time</li>
+<li>Integration tests must use stubbed out services or mocks to mimic actua=
+l external services. The response from the fake service must be close to wh=
+at we would get from the actual service. Phony is an in-house tool that can=
+ be used for this purpose</li>
+</ul>
+</div>
+</div>
+<div id=3D"expander-1490959193" class=3D"expand-container">
+<div id=3D"expander-control-1490959193" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"f8339425632c11b62038c84ede736d7b" widt=
+h=3D"16" height=3D"16"></span>
+<span class=3D"expand-control-text">Quality Gates</span>
+</div>
+<div id=3D"expander-content-1490959193" class=3D"expand-content">
+<p><span>At the end of this step you'll have:</span></p>
+<ul>
+<li>Continuous Integration builds are setup and run without manual interven=
+tion</li>
+<li>Strive to move towards a Continuous Deployment model of releasing softw=
+are</li>
+<li>Infrastructure is set up to provide high-availability</li>
+<li>Disaster recovery plans are in place</li>
+<li>Cloud (for availability, scalability etc) / <a href=3D"https://confluen=
+ce/display/SCC/Cloud+Architecture+Patterns?src=3Dcontextnavpagetreemode" re=
+l=3D"nofollow">Cloud Architecture Patterns</a></li>
+<li><span>Application changes being tracked as Cherwell Change Review Proce=
+ss</span></li>
+<li><span><span>Integration of corrective action/ remediation from any "Dee=
+p Dive Take-Aways": Open/ Completed</span></span></li>
+<li><span><span><span>High-Availability/ Disaster Recovery Plan</span></spa=
+n></span></li>
+<li><a href=3D"https://confluence/display/QAPOW/Quality+Best+Practices+and+=
+Recommendations" rel=3D"nofollow">Quality Best Practices and Recommendation=
+s </a></li>
+</ul>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>Click&nbsp;<a href=3D"/display/QAPOWArchive/General">here</a>&nbsp;for m=
+ore info on <a href=3D"/display/QAPOWArchive/General">General phase</a></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<style>
+#content h1 {
+=09#padding: .5em;
+    text-align: center;
+=09background: #b1d7f0;
+=09}
+
+#content h3 {
+=09#padding: .5em;
+    text-align: center;
+=09background: #1F618D;
+=09border-size: .1em;
+=09color:=20
+}
+</style>
+<p>&nbsp;Process for Bug Resolution:</p>
+<p><br></p>
+<p><br></p>
+<p>&nbsp;</p>
+</div>=20
+</div>=20
+</div>=20
+</div>
+    </div>
+</body>
+</html>
+------=_Part_26_614777311.1641223454319
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/da88547694247e64d40dd02ab425a896
+
+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
+MvbgWGaLDU3e9RJCwzTYatRg+EtLq49dAuQEAyAw+bhWH7ouLMcR1KWFl2KHVh1U9JJSjJG47m9J
+JSjIC60wlYRCHV+L0PDrlxZriurXDckUIQh6KeJo2pt11Lh68dLbi2a4w70562o1CkOad+BoUboY
+UCQg86hsXi8/e5DSRDY7JZtGH5YKWx3SzaEtWDWi8/e7LQAgA5U4bqYUASoc6RnGG/8A3sU1ks7I
+ZtWX5SslndDNqQ1LYtF5+9mGgJIjypw3VlDcQOj4GrTxJR4K3kINxbdZS4evHW1RIhKB0fE1Ny4U
+fHrNxZBiuhTVzqAh0fu9PSSUozVuu5vSSUozEuNNE+AFnR+L1j4abiyTEdH51PAEAzVqGPWbXL49
+NPDmCWGQLDQ3c4cxSxyDYaNHNaAva7x66gIAQDMSz8vdTsIu9O9O2KITeTOmNiiCu/8A0kXf6+aI
+SwJ0/ZzPgBUAVWAocuFV/wCZz22vgVT+ZypEUREYT4MCBBOn5OTXD5iPHFZCEq/8ScX/AAddq9eo
+O6mbooFYIKVV2vPWiABF/k2wIJNvloUoJQhLteetPQw0VyzLntW9iTg/4GtA6cKwEBuEpMJAX9tN
+TYL24kY1Et1VFlrCucv3QqpAIAZVFfb+Tb9dm1F6NHKCImVSI6VRc5fmkF2LE6oWTlsR8QgJf215
+7iAI4NJaIEjEaeZTVthVmQF2uDQSTocLpRWntHlzeK6t9j7fybfrs3+b0Ya7zIcx4OtQ1OUgcyx6
+01bYVZkjcpSmCWWx9cMWgADA3JPkMEIbYVgmh3M/BBThTsfb+Tb9dm7WCSHYzi5MlOEzBgXitd6+
+38m367N/oft/Jt+uzf6H22Zt+yzf6Fsw5FEHJ2pEiRIkNSGyRkkQZv8AwD//2SAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICA=
+------=_Part_26_614777311.1641223454319
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/f8339425632c11b62038c84ede736d7b
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX/
+//9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAZoiZzN3/SzZomQAAAAlwSFlzAAALEgAA
+CxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENy
+ZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACFJREFUCJljYCATsCgwqIAZTMnMyRAhsTABCIMxkVxT
+GQCLcwHyUKXpLgAAAABJRU5ErkJggg==
+------=_Part_26_614777311.1641223454319
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/92152cbae3984e4dd23720d6c8479f0b
+
+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
+ACsIgAAIgAAIgAAIgAAIgAAIgAAIgAAIhAIBCCmhYGWUEQRAAARAAARAAARAAARAAARAAARAwBAC
+EFIMwYhEQAAEQAAEQAAEQAAEQAAEQAAEQAAEQoEAhJRQsDLKCAIgAAIgAAIgAAIgAAIgAAIgAAIg
+YAgBCCmGYEQiIAACIAACIAACIAACIAACIAACIAACoUAAQkooWBllBAEQAAEQAAEQAAEQAAEQAAEQ
+AAEQMIQAhBRDMCIREAABEAABEAABEAABEAABEAABEACBUCAAISUUrIwyggAIgAAIgAAIgAAIgAAI
+gAAIgAAIGEIAQoohGJEICIAACIAACIAACIAACIAACIAACIBAKBCAkBIKVkYZQQAEQAAEQAAEQAAE
+QAAEQAAEQAAEDCEAIcUQjEgEBEAABEAABEAABEAABEAABEAABEAgFAhASAkFK6OMIAACIAACIAAC
+IAACIAACIAACIAAChhCAkGIIRiQCAiAAAiAAAiAAAiAAAiAAAiAAAiAQCgQgpISClVFGEAABEAAB
+EAABEAABEAABEAABEAABQwhASDEEIxIBARAAARAAARAAARAAARAAARAAARAIBQIQUkLByigjCIAA
+CIAACIAACIAACIAACIAACICAIQQgpBiCEYmAAAiAAAiAAAiAAAiAAAiAAAiAAAiEAgEIKaFgZZQR
+BEAABEAABEAABEAABEAABEAABEDAEAIQUgzBiERAAARAAARAAARAAARAAARAAARAAARCgQCElFCw
+MsoIAiAAAiAAAiAAAiAAAiAAAiAAAiBgCAEIKYZgRCIgAAIgAAIgAAIgAAIgAAIgAAIgAAKhQABC
+SihYGWUEARAAARAAARAAARAAARAAARAAARAwhACEFEMwIhEQAAEQAAEQAAEQAAEQAAEQAAEQAIFQ
+IPA/lSEkp6xW8JIAAAAASUVORK5CYII=
+------=_Part_26_614777311.1641223454319--

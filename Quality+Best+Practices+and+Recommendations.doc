@@ -1,0 +1,632 @@
+Message-ID: <2008032931.63.1641223578538.JavaMail.confluence@ql2confluence1.mi.corp.rockfin.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_62_1205769328.1641223578537"
+
+------=_Part_62_1205769328.1641223578537
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Quality Best Practices and Recommendations</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Quality Best Practices and Recommendations</h1>
+    <div class=3D"Section1">
+        <p>&nbsp;</p>
+<p>In order to&nbsp;deploy AMAZING applications to the business, delivery&n=
+bsp;teams should have considered the following processes and recommended be=
+st practices and concepts, requisite to satisfying/passing quality gates.</=
+p>
+<p>While delivery teams do not necessarily have every quality gate implemen=
+ted currently, (if it&nbsp;even makes sense to do so), we highly recommend =
+that all quality gates that&nbsp;<u>can</u>&nbsp;be implemented,&nbsp;<u>ar=
+e</u>&nbsp;implemented.</p>
+<p>We&nbsp;are not concerned with the specific&nbsp;tools involved in how d=
+elivery teams&nbsp;satisfy these gates, but we do provide examples of tools=
+ that have solved these quality gates.</p>
+<p>&nbsp;</p>
+<p>Note: These quality gates defined depict an ideal state for typical appl=
+ications; and may not&nbsp;be feasible to implement&nbsp;for&nbsp;every app=
+lication. These quality gates&nbsp;have been identified as being&nbsp;<stro=
+ng>critical&nbsp;</strong>to delivering high quality applications; and they=
+ are guiderails to help delivery teams deploy, but we are sensitive to uniq=
+ue and special circumstances - and we will work with&nbsp;delivery teams to=
+&nbsp;satisfy/by-pass certain&nbsp;quality gates on an as-needed basis (Ex.=
+ "Small, internal/non-client facing,&nbsp;non-cloud" application which does=
+ not necessarily need to be security/load tested).</p>
+<p>&nbsp;</p>
+<h4 id=3D"QualityBestPracticesandRecommendations-SourceControl[REQUIRED]:">=
+<strong><a href=3D"http://en.wikipedia.org/wiki/Revision_control" class=3D"=
+external-link" rel=3D"nofollow">Source Control</a>&nbsp;[REQUIRED]:</strong=
+></h4>
+<p>Some method of&nbsp;version control and tracking&nbsp;changes to source =
+code&nbsp;<strong>must</strong>&nbsp;be used. There will be no exceptions t=
+o this required quality gate.</p>
+<p><strong>Application Code [REQUIRED]:</strong></p>
+<ul>
+<li>Examples: TFS / GIT</li>
+</ul>
+<p><strong>Database Code [</strong><strong>REQUIRED</strong><strong>]:</str=
+ong></p>
+<ul>
+<li>Examples: RedGate / TFS (MS SQL)</li>
+</ul>
+<p>&nbsp;</p>
+<h4 id=3D"QualityBestPracticesandRecommendations-BranchingStrategy[REQUIRED=
+]:"><strong><a href=3D"https://www.atlassian.com/git/tutorials/comparing-wo=
+rkflows/gitflow-workflow/" class=3D"external-link" rel=3D"nofollow">Branchi=
+ng Strategy</a>&nbsp;[REQUIRED]:</strong></h4>
+<p>Depending on the nature of the team and the products/systems being devel=
+oped, various branching strategies can be applied. The delivery team will d=
+ecide upon their desired branching workflow; especially as to how it direct=
+ly relates to their&nbsp;<a href=3D"http://en.wikipedia.org/wiki/Continuous=
+_integration" class=3D"external-link" rel=3D"nofollow">Continuous Integrati=
+on&nbsp;</a>selection.&nbsp; Each delivery&nbsp;team&nbsp;may&nbsp;implemen=
+t this quality gate slightly&nbsp;differently, and that is acceptable, but =
+as long as the team&nbsp;has a well thought out branch strategy that ensure=
+s safety and quality inspection, then it=E2=80=99s likely OK. This quality&=
+nbsp;gate is satisfied, as long as the delivery&nbsp;team&nbsp;<strong>has<=
+/strong>&nbsp;a branching strategy.</p>
+<ul>
+<li>Examples: DEV (Local) &gt; WIP (Source) &gt; PROD (Release)</li>
+<li>Examples:&nbsp;<a href=3D"https://www.atlassian.com/git/tutorials/compa=
+ring-workflows/gitflow-workflow/" class=3D"external-link" rel=3D"nofollow">=
+Feature Branches</a></li>
+<li>Examples:&nbsp;<a href=3D"https://www.atlassian.com/git/tutorials/compa=
+ring-workflows/feature-branch-workflow" class=3D"external-link" rel=3D"nofo=
+llow">Gitflow</a></li>
+</ul>
+<h4 id=3D"QualityBestPracticesandRecommendations-">&nbsp;</h4>
+<h4 id=3D"QualityBestPracticesandRecommendations-Builds/ContinuousIntegrati=
+on[REQUIRED]:"><strong><a href=3D"http://en.wikipedia.org/wiki/Build_automa=
+tion" class=3D"external-link" rel=3D"nofollow">Builds&nbsp;</a>/&nbsp;<a hr=
+ef=3D"http://en.wikipedia.org/wiki/Continuous_integration" class=3D"externa=
+l-link" rel=3D"nofollow">Continuous Integration</a>&nbsp;[REQUIRED]:</stron=
+g></h4>
+<p>Building applications with CI in mind&nbsp;is generally easy to setup an=
+d use. Flexibility to handle&nbsp;unforeseen changes and one-offs&nbsp;are =
+important to us&nbsp;as well. We will help teams get this implemented in a =
+way that best fits your team's needs.</p>
+<ul>
+<li>Examples: Gated check-ins or Pull requests</li>
+</ul>
+<p style=3D"margin-left: 30.0px;"><u><br></u></p>
+<p style=3D"margin-left: 30.0px;"><u>Allowable Build CI Options:</u></p>
+<ul>
+<li>Continuous Integration: Build after each check-in</li>
+<li>Rolling Builds: Accumulate check-ins until the prior build completes</l=
+i>
+<li>Scheduled: Build all changes on a regularly occurring time period</li>
+<li>Gated Check-Ins: Accept check-in only if the submitted changes merge an=
+d build successfully</li>
+<li>Pull requests: After code has been reviewed by the&nbsp;master reposito=
+ry owner, code is merged into the main repository</li>
+<li>Manual: Check-ins do not trigger a build (Note: This is&nbsp;<strong>NO=
+T</strong>&nbsp;a preferred option)</li>
+</ul>
+<p>&nbsp;</p>
+<h4 id=3D"QualityBestPracticesandRecommendations-UnitTests[REQUIRED]:"><str=
+ong><a href=3D"http://en.wikipedia.org/wiki/Unit_testing" class=3D"external=
+-link" rel=3D"nofollow">Unit Tests</a></strong>&nbsp;<strong>[REQUIRED]:</s=
+trong></h4>
+<p>Unit tests are test code which functionally tests application code. We a=
+ccept that teams may have accrued past technical debt, and that is ok. We h=
+ave a lot of knowledge and techniques to&nbsp;help you to get better code c=
+overage:&nbsp;<a href=3D"https://fringedivision.atlassian.net/wiki/download=
+/attachments/16941168/Better%20Unit%20Testing%20with%20Microsoft%20Fakes%20=
+%28RTM%29%20-%202.pdf?version=3D1&amp;modificationDate=3D1416845764818&amp;=
+api=3Dv2" class=3D"external-link" rel=3D"nofollow">Unit Testing [Knowledge =
+Base]</a>&nbsp;/&nbsp;<a href=3D"mailto:ITCOMMUNITYUNITTESTING@Quickenloans=
+.com" class=3D"external-link" rel=3D"nofollow">IT Community Unit Testing</a=
+>. Delivery teams will require time, knowledge,&nbsp;and commitment to acco=
+mplish these goals, and we're all committed to helping out&nbsp;with that. =
+Let's get better together, incrementally.</p>
+<p><strong><u>Note: If an application has no unit tests&nbsp;[0% code cover=
+age]&nbsp;=3D=3D Deployment Failure!</u></strong></p>
+<p><u><em><br></em></u></p>
+<ul>
+<li>Unit Testing Framework Examples: NUnit, FSUnit, MSTest, PHPUnit, MOQ</l=
+i>
+<li>Database Unit Testing Framework&nbsp;Examples: tSQLt / SQLTest</li>
+</ul>
+<p>&nbsp;</p>
+<h4 id=3D"QualityBestPracticesandRecommendations-RunTestsfromCommandLine(MS=
+Test)">Run Tests from Command Line (MSTest)</h4>
+<ul>
+<li>Run the "<em><u><strong>Developer Command Prompt</strong></u></em>"
+<ul>
+<li>%comspec% /k ""C:\Program Files (x86)\Microsoft Visual Studio 12.0\Comm=
+on7\Tools\VsDevCmd.bat""</li>
+</ul></li>
+<li>cd\</li>
+<li>cd "C:\CodeIT\IT\QAPOW\Sandboxes\PV\UnitTest-SE-POC\UnitTest-SE-POC\bin=
+\Debug"</li>
+<li>mstest /testcontainer:UnitTest-SE-POC.dll</li>
+</ul>
+<ul>
+<li>cd\</li>
+<li>cd "C:\CodeIT\IT\QAPOW\ALMDemo\Main\MvcApplication.Tests\bin\Debug"</li=
+>
+<li>mstest /testcontainer:MvcApplication.Tests.dll /category:"Unit"</li>
+</ul>
+<p><a href=3D"https://msdn.microsoft.com/en-us/library/ms182487.aspx" class=
+=3D"external-link" rel=3D"nofollow">Running CLI</a>&nbsp;Documentation</p>
+<h4 id=3D"QualityBestPracticesandRecommendations-.1"><strong><br></strong><=
+/h4>
+<h4 id=3D"QualityBestPracticesandRecommendations-AutomatedIntegrationTests/=
+FunctionalTests[REQUIRED]:"><strong><a href=3D"http://en.wikipedia.org/wiki=
+/Test_automation" class=3D"external-link" rel=3D"nofollow">Automated Integr=
+ation Tests</a>&nbsp;/&nbsp;<a href=3D"http://en.wikipedia.org/wiki/Functio=
+nal_testing" class=3D"external-link" rel=3D"nofollow">Functional Tests</a><=
+/strong><strong>&nbsp;[REQUIRED]:</strong></h4>
+<p>There are many options for automated functionality&nbsp;testing. We sugg=
+est that delivery teams utilize various types of automated testing&nbsp;for=
+ each functional testing type. Whether testing through the UI, web services=
+, or directly from code as well, there are numerous and varied options for =
+automated testing needs.</p>
+<p>We accept that teams may not have complete automated application coverag=
+e. We have a lot of knowledge and techniques to&nbsp;help you to get even b=
+etter automated application coverage:&nbsp;<a href=3D"https://fringedivisio=
+n.atlassian.net/wiki/display/IC/Quality+Community" class=3D"external-link" =
+rel=3D"nofollow">IT Quality Community</a>&nbsp;/&nbsp;<a href=3D"/download/=
+attachments/15467257/QAPOW?version=3D5&amp;modificationDate=3D1469226111000=
+&amp;api=3Dv2" data-linked-resource-id=3D"15859760" data-linked-resource-ve=
+rsion=3D"5" data-linked-resource-type=3D"attachment" data-linked-resource-d=
+efault-alias=3D"QAPOW" data-nice-type=3D"Image" data-linked-resource-conten=
+t-type=3D"image/png" data-linked-resource-container-id=3D"15467257" data-li=
+nked-resource-container-version=3D"2">IT Team QAPOW</a>. Delivery teams wil=
+l require time, knowledge,&nbsp;and commitment to accomplish these goals, a=
+nd we're all committed to helping out&nbsp;with that.</p>
+<p>General Application Requirement: Minimum frequency for an application to=
+ run the&nbsp;"full regression" suite(s): At&nbsp;<strong>least</strong>&nb=
+sp;once per week</p>
+<ul>
+<li>Examples: Selenium, CodedUI, QTP, SOAPUI,&nbsp;<strong>etc.</strong></l=
+i>
+</ul>
+<p><em><u>Note: All Acceptance Criteria [Story + Feature] should be automat=
+ed [See also&nbsp;<a href=3D"http://en.wikipedia.org/wiki/Behavior-driven_d=
+evelopment" class=3D"external-link" rel=3D"nofollow">BDD</a>]</u></em></p>
+<p>&nbsp;</p>
+<h4 id=3D"QualityBestPracticesandRecommendations-Load/PerformanceStrategy[R=
+EQUIRED]:"><strong><a href=3D"http://en.wikipedia.org/wiki/Performance_test=
+ing" class=3D"external-link" rel=3D"nofollow">Load/Performance Strategy</a>=
+</strong><strong>&nbsp;[REQUIRED]:</strong></h4>
+<p>General Application Requirement: 10K requests / 1 sec response</p>
+<p>General Application Requirement: Minimum frequency for an application to=
+ run the L&amp;P suite: At&nbsp;<strong>least</strong>&nbsp;once per week</=
+p>
+<p>General Application Requirement:&nbsp;<u>Response Times</u>: Acceptable =
+response times for the application: Reporting 90th percentile</p>
+<p>General Application Requirement:&nbsp;<u>Throughput</u>: Transactions pe=
+r second / Requests per second</p>
+<p>&nbsp;</p>
+<p><em><u>Note: LoadGens needed for testing in AWS Cloud&nbsp;&gt; Know the=
+ =E2=80=9Cbog down=E2=80=9D point (# concurrent actions/expected&nbsp;/ res=
+ponse time [SLA Baseline Requirement: ~10,000 requests / 1s response (pg lo=
+ad)]</u></em></p>
+<p><em><u><br></u></em></p>
+<ul>
+<li>Examples: LoadRunner</li>
+</ul>
+<p>&nbsp;</p>
+<h4 id=3D"QualityBestPracticesandRecommendations-SecurityStrategy[REQUIRED]=
+:"><strong><a href=3D"http://en.wikipedia.org/wiki/Security_testing" class=
+=3D"external-link" rel=3D"nofollow">Security Strategy</a></strong><strong>&=
+nbsp;[REQUIRED]:</strong></h4>
+<p>Periodic Scans: (Currently being run on an ad-hoc/as needed&nbsp;basis)<=
+/p>
+<p>Functional Security Tests (Integrated with Build/Deploy tooling): [Techn=
+ology Services team: TBD]</p>
+<ul>
+<li><span style=3D"color: black;">To be run on every deployment (to a new e=
+nvironment) + at least weekly</span></li>
+<li><span style=3D"color: black;">OWASP Top 10, others</span></li>
+</ul>
+<p><a href=3D"http://en.wikipedia.org/wiki/Penetration_test" class=3D"exter=
+nal-link" rel=3D"nofollow">Penetration Testing</a>: [External Vendor =3D TB=
+D]</p>
+<ul>
+<li>Examples:&nbsp;Acunetix / BurpSuite /&nbsp;Firing Range + NoGoToFail / =
+Applause</li>
+</ul>
+<p><a href=3D"https://www.checkmarx.com/2015/03/19/secure-software-developm=
+ent-life-cycle/?utm_campaign=3DNewsletter&amp;utm_source=3Dhs_email&amp;utm=
+_medium=3Demail&amp;utm_content=3D17114701&amp;_hsenc=3Dp2ANqtz--h3dDs8iTx9=
+ZcBXlXJTEN7pHKwkkpFrFnF-G5ov6AwFpZ5nKidkoVRh0fM3eQOPh5p-L8_Sj-_CzIKIfFL-cd_=
+7bQiFlIoK6SKZZdPTNhwwquLceg&amp;_hsmi=3D17114701" class=3D"external-link" r=
+el=3D"nofollow">Security Strategy</a>&nbsp;[Article]</p>
+<h4 id=3D"QualityBestPracticesandRecommendations-.2">&nbsp;</h4>
+<h4 id=3D"QualityBestPracticesandRecommendations-DeploymentStrategy[REQUIRE=
+D]:"><strong><a href=3D"http://en.wikipedia.org/wiki/Software_deployment" c=
+lass=3D"external-link" rel=3D"nofollow">Deployment Strategy</a></strong><st=
+rong>&nbsp;[REQUIRED]:</strong></h4>
+<p>&nbsp;</p>
+<ul>
+<li>Examples: MS Release Mgt&nbsp;/ Electric&nbsp;Cloud</li>
+</ul>
+<p><em><u>Note: DEV &gt; TEST &gt; BETA &gt; PROD (Prod1 and Prod2) - All s=
+tages available in Cloud</u></em></p>
+<div>
+<em><u><br></u></em>
+</div>
+<h4 id=3D"QualityBestPracticesandRecommendations-DisasterRecoveryStrategy[R=
+EQUIRED]:"><strong><a href=3D"http://en.wikipedia.org/wiki/Disaster_recover=
+y" class=3D"external-link" rel=3D"nofollow">Disaster Recovery Strategy</a><=
+/strong><strong>&nbsp;[REQUIRED]:</strong></h4>
+<p><u><em>Note: Separate workstream &gt; Needs coordination w/ Systems Engi=
+neering and/or NOC</em></u><em>&nbsp;&nbsp;</em><strong>[TBD]</strong></p>
+<p><u><em>Note: This is typically handled by AWS (NO-OP) &gt; But should be=
+ an architectural consideration as well</em></u></p>
+<ul>
+<li><h5 id=3D"QualityBestPracticesandRecommendations-Examples:CrossRegionRe=
+plication:">Examples:&nbsp;Cross Region Replication:</h5>
+<ul>
+<li>RDS</li>
+<li>DYNAMO</li>
+<li>SQS</li>
+</ul></li>
+<li><h5 id=3D"QualityBestPracticesandRecommendations-Examples:ManualReplica=
+tion:">Examples: Manual Replication:</h5>
+<ul>
+<li>CODE</li>
+<li>Security groups</li>
+<li>IAAS VMs</li>
+<li>AMIs</li>
+<li>Beanstalk</li>
+<li>ElasticCache</li>
+<li>Cloud Watch</li>
+<li>Cloud Trail</li>
+</ul></li>
+</ul>
+<p><u><em>Note: CNAME switches will happen, but only in Production (similar=
+ to how the front end works)</em></u></p>
+<p>&nbsp;</p>
+<h4 id=3D"QualityBestPracticesandRecommendations-ScalingStrategy[OPTIONAL]:=
+"><strong>Scaling Strategy</strong><strong>&nbsp;[OPTIONAL]:</strong></h4>
+<p><u><em>Note: This is typically handled by AWS (NO-OP) &gt; But should be=
+ an architectural consideration as well</em></u></p>
+<ul>
+<li>Examples: (Some plan beyond just =E2=80=9Cuse additional servers=E2=80=
+=9D)<strong>&nbsp;[TBD]</strong></li>
+</ul>
+<p>&nbsp;</p>
+<h4 id=3D"QualityBestPracticesandRecommendations-CodeChangeReviews[OPTIONAL=
+]:"><strong><a href=3D"http://en.wikipedia.org/wiki/Code_review" class=3D"e=
+xternal-link" rel=3D"nofollow">Code Change Reviews</a>&nbsp;[OPTIONAL]:</st=
+rong></h4>
+<p>It is&nbsp;<u>highly recommended</u>&nbsp;that&nbsp;<u><strong>ALL&nbsp;=
+</strong></u>code changes be peer reviewed prior to being checked in</p>
+<p><strong><br></strong></p>
+<h4 id=3D"QualityBestPracticesandRecommendations-PeerCollaboration[OPTIONAL=
+]:"><strong>Peer Collaboration&nbsp;[OPTIONAL]:</strong></h4>
+<p>It is&nbsp;<u>highly recommended</u>&nbsp;that all requirements, accepta=
+nce criteria, test strategies, designs, and code - ALL be implemented by tw=
+o or more team members.&nbsp;</p>
+<p><strong><br></strong></p>
+<h4 id=3D"QualityBestPracticesandRecommendations-DynamicCodeAnalysis[OPTION=
+AL]:"><a href=3D"http://en.wikipedia.org/wiki/Dynamic_program_analysis" cla=
+ss=3D"external-link" rel=3D"nofollow"><strong>Dynamic Code Analysis</strong=
+>&nbsp;</a><strong>[OPTIONAL]:</strong></h4>
+<p>Delivery teams have the option of performing a run-time collection of me=
+trics, to watch how the applications behave when being used. These applicat=
+ion / server metric monitors can be discussed on an as desired basis.</p>
+<ul>
+<li>Examples: App Dynamics / Spelunk Enterprise AWS / AQTime<strong>&nbsp;[=
+TBD]</strong>
+<ul>
+<li>Agentless =3D DC-RUM from Compuware/Dynatrace</li>
+<li>On Prem Agent-based =3D AppDynamics</li>
+<li>Cloud Agent-based =3D AppDynamics &amp; New Relic</li>
+</ul></li>
+</ul>
+<p>&nbsp;</p>
+<h4 id=3D"QualityBestPracticesandRecommendations-BehaviorDrivenDevelopment(=
+BDD)[OPTIONAL]:"><strong><a href=3D"http://en.wikipedia.org/wiki/Behavior-d=
+riven_development" class=3D"external-link" rel=3D"nofollow">Behavior Driven=
+ Development (BDD)</a>&nbsp;[OPTIONAL]:</strong></h4>
+<p><a href=3D"http://en.wikipedia.org/wiki/Behavior-driven_development" cla=
+ss=3D"external-link" rel=3D"nofollow">BDD</a>&nbsp;(and related)&nbsp;<a hr=
+ef=3D"http://en.wikipedia.org/wiki/Test-driven_development" class=3D"extern=
+al-link" rel=3D"nofollow">TDD&nbsp;</a>processes&nbsp;are software developm=
+ent methodologies which strive to introduce quality into applications, by e=
+nsuring that the concept of testing application code is a first-class citiz=
+en consideration when developing code.</p>
+<p>For each unit of software, a software developer must:</p>
+<ul>
+<li>define a test set for the unit&nbsp;<em>first</em>; (first, write the t=
+est for the actual code)</li>
+<li>then implement the unit; (then implement the code)</li>
+<li>finally, verify that the implementation of the unit (application code u=
+nder test) makes the tests succeed.</li>
+</ul>
+<p>The tests are written with a view to satisfying product requirements, an=
+d proving that their requisite (testable) acceptance criteria, written in p=
+lain English, are implemented as expected.&nbsp;Code is then&nbsp;implement=
+ed to satisfy requirement acceptance criteria, and the supporting testing c=
+ode checks.</p>
+<ul>
+<li>Examples: Cucumber (Non.NET), SpecFlow (.NET)</li>
+</ul>
+<h4 id=3D"QualityBestPracticesandRecommendations-.3"><strong><strong><br></=
+strong></strong></h4>
+<h4 id=3D"QualityBestPracticesandRecommendations-TestDrivenDesign/Developme=
+nt/DOING(TDD)[OPTIONAL]:"><strong><strong>Test Driven Design/Development/DO=
+ING</strong></strong><strong style=3D"line-height: 1.4285715;">&nbsp;(TDD) =
+[OPTIONAL]:</strong></h4>
+<h4 id=3D"QualityBestPracticesandRecommendations-.4"><strong><strong><br></=
+strong></strong></h4>
+<p><strong><strong><br></strong></strong></p>
+<h4 id=3D"QualityBestPracticesandRecommendations-ProjectReportingMetrics[RE=
+QUIRED]:"><strong><a href=3D"http://en.wikipedia.org/wiki/Software_metric" =
+class=3D"external-link" rel=3D"nofollow"><strong>Project&nbsp;</strong>Repo=
+rting Metrics</a></strong><strong>&nbsp;[REQUIRED]:</strong></h4>
+<p>Delivery teams are responsible for collecting the following metrics. The=
+se metrics&nbsp;have been determined as a "starting point" for measuring im=
+provements to software quality. These metrics will be collated into a neutr=
+al file format (<strong>TBD</strong>) in order to be aggregated and display=
+ed on a dashboard.</p>
+<p>&nbsp;</p>
+<p><u>Metrics to be reported:</u></p>
+<ul>
+<li>Planned/Unplanned Work</li>
+<li><p>Project Team Velocity</p></li>
+<li><p># Bugs in current =E2=80=9CPROD=E2=80=9D release</p></li>
+<li><a href=3D"http://en.wikipedia.org/wiki/Code_coverage" class=3D"externa=
+l-link" rel=3D"nofollow">Code Coverage&nbsp;</a>%&nbsp;(# unit tests coveri=
+ng code :: higher coverage =3D better)</li>
+<ul>
+<li><em># unit tests passing</em></li>
+<li><em># unit tests failing</em></li>
+<li><em>Total # unit tests</em></li>
+</ul>
+<li><a href=3D"http://en.wikipedia.org/wiki/Cyclomatic_complexity" class=3D=
+"external-link" rel=3D"nofollow">Cyclomatic Complexity</a>&nbsp;(Lower # br=
+anch paths better =3D more maintainable)</li>
+<li><a href=3D"http://en.wikipedia.org/wiki/Source_lines_of_code" class=3D"=
+external-link" rel=3D"nofollow">Lines of Code&nbsp;</a>(kLOC)</li>
+<li><p>Latest&nbsp;deployed build number</p></li>
+<li><p>Latest source build "state":</p>
+<ul>
+<li><p>Built (compiled/built + build verification tests all passed)</p></li=
+>
+<li><p>Failed (broken compile or build verification tests failed)</p></li>
+</ul></li>
+<li><a href=3D"http://www.artima.com/weblogs/viewpost.jsp?thread=3D210575" =
+class=3D"external-link" rel=3D"nofollow">CRAP Index</a><em>&nbsp;</em>(Main=
+tainability) [Calculated from Code Coverage vs. Cyclomatic Complexity]</li>
+<ul>
+<li><p><a class=3D"unresolved" href=3D"#">CRAPThresholds</a><br>&nbsp;</p><=
+/li>
+</ul>
+</ul>
+<p><em><u>Note: These metrics, and additionally others,&nbsp;will be evalua=
+ted&nbsp;as to their value and validity in promoting software quality - the=
+se metrics&nbsp;are but a starting point for continuous improvement, and wi=
+ll likely be tweaked as we continue to learn and adapt.</u></em></p>
+<div>
+<em><u><br></u></em>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_62_1205769328.1641223578537--
