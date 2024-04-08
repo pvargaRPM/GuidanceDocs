@@ -1,382 +1,72 @@
-Message-ID: <543133793.69.1641223591714.JavaMail.confluence@ql2confluence1.mi.corp.rockfin.com>
-Subject: Exported From Confluence
-MIME-Version: 1.0
-Content-Type: multipart/related; 
-	boundary="----=_Part_68_782719248.1641223591714"
+# Automation Best Practices
 
-------=_Part_68_782719248.1641223591714
-Content-Type: text/html; charset=UTF-8
-Content-Transfer-Encoding: quoted-printable
-Content-Location: file:///C:/exported.html
+### This space is dedicated to providing concepts and guidelines to consider when creating/maintaining automated testing suites.
 
-<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
-      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
-      xmlns:v=3D'urn:schemas-microsoft-com:vml'
-      xmlns=3D'urn:w3-org-ns:HTML'>
-<head>
-    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
-">
-    <title>Automation Best Practices</title>
-    <!--[if gte mso 9]>
-    <xml>
-        <o:OfficeDocumentSettings>
-            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
-            <o:PixelsPerInch>72</o:PixelsPerInch>
-            <o:AllowPNG/>
-        </o:OfficeDocumentSettings>
-        <w:WordDocument>
-            <w:View>Print</w:View>
-            <w:Zoom>90</w:Zoom>
-            <w:DoNotOptimizeForBrowser/>
-        </w:WordDocument>
-    </xml>
-    <![endif]-->
-    <style>
-                <!--
-        @page Section1 {
-            size: 8.5in 11.0in;
-            margin: 1.0in;
-            mso-header-margin: .5in;
-            mso-footer-margin: .5in;
-            mso-paper-source: 0;
-        }
+## Always have a Repeatable/Clean Start State
+- Not tied to specific test data, if possible
 
-        table {
-            border: solid 1px;
-            border-collapse: collapse;
-        }
+## Leverage Parallelization:
+- Run all tests in parallel if possible, (not running in serial) which should yield much faster results and be less prone to failures
 
-        table td, table th {
-            border: solid 1px;
-            padding: 5px;
-        }
+## Leverage the "Page Object Model/Pattern" (POMs)
+- Modularity / Maintainability
 
-        td {
-            page-break-inside: avoid;
-        }
+## Test Constantly:
+- Run tests on every commit, yields a higher confidence in code changes
+- Test as much as you can earlier in a sprint</span></li>
+- Figure out how fast you want test suites to run, then determine the number of tests to run AND expand hardware : to expand throughput + value
+- Retest all tests 2x (twice) to remove some false positives (of failures) - this often passes due to a smaller load by running only failures again
 
-        tr {
-            page-break-after: avoid;
-        }
+## Speed things up:
+- Run tests under 5min (the average attention span of an engaged adult is less than 5min)
+- Provide results before context is switched</span></li>
+- Create an environment where DEVs work with you, not against yo=
+- Engage audiences by providing validation results (value) sooner
+- Keep commented out lines to a minimum
+- Use consistent naming conventions
+- Split up "long/multiline" methods if possible
 
-        div.Section1 {
-            page: Section1;
-        }
+## Start Small:
+- Don't rush to automate every test case
+- Identify test case priority, then automate
+- Don't automate end-to-end (tests might be too long/complex/hard to maintain) - stub things out + combine (NOTE:: Except for UX tests!)
 
-        /* Confluence print stylesheet. Common to all themes for print medi=
-a */
-/* Full of !important until we improve batching for print CSS */
+# Divide + Conquer (small, dynamic tests equals faster results)
+Separate Testing Concerns:
+- By functional area
+- By hosted server
+- By backend server
 
-@media print {
-    #main {
-        padding-bottom: 1em !important; /* The default padding of 6em is to=
-o much for printouts */
-    }
+## Automation Development Activity
+- Automation IS development effort
+- Copy/Pasting inside code can be replaced by reusable code (Stay DRY: Don't Repeat Yourself)
+- Source Control is cheap insurance (against lost code - commit often)
+- Bad coding practices equates to bad testing practices (and vice versa)
 
-    body {
-        font-family: Arial, Helvetica, FreeSans, sans-serif;
-        font-size: 10pt;
-        line-height: 1.2;
-    }
+## Don't forget to Wait:
+- Use Explicit or Fluent waits (for single elements/moments of unknown duration)
+- Use Implicit waits for waiting a set amount of the time (pre-known load duration/time)
+- Fluent waits for variable element loading (like for lazy loaded pages)
 
-    body, #full-height-container, #main, #page, #content, .has-personal-sid=
-ebar #content {
-        background: #fff !important;
-        color: #000 !important;
-        border: 0 !important;
-        width: 100% !important;
-        height: auto !important;
-        min-height: auto !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        display: block !important;
-    }
+## Avoid Dependencies:
+- Tests should not rely on previous tests to run/pass/states (self-contained tests are better)
+- One test's actions should not drive another test's assertion criteria (try not to use daisy-chaining, unless intended/necessary!)
 
-    a, a:link, a:visited, a:focus, a:hover, a:active {
-        color: #000;
-    }
+## Prep Your Environment:
+- Make sure your CI rig can handle the number of jobs running on it simultaneously
+- Make sure your SUT *system under tests) can handle the number of tests running on it simultaneously/concurrently (ex: load tests)
+- Try to emulate the REAL PROD environment (Simulate/Emulate PROD environment: Disk size, capacity, memory, speed, etc.)
 
-    #content h1,
-    #content h2,
-    #content h3,
-    #content h4,
-    #content h5,
-    #content h6 {
-        font-family: Arial, Helvetica, FreeSans, sans-serif;
-        page-break-after: avoid;
-    }
+## Collect Metrics:
+- How long did test runs take before and after automation? (time span/duration of test)
+- How many bugs do automated tests identify per release? (Would have escaped to PROD)
+- How many engineers/time does a typical test run require (to run and resolve errors)?
+- How much money/time does this automation save a company? Example: Calculate Return on Investment (ROI)
 
-    pre {
-        font-family: Monaco, "Courier New", monospace;
-    }
-
-    #header,
-    .aui-header-inner,
-    #navigation,
-    #sidebar,
-    .sidebar,
-    #personal-info-sidebar,
-    .ia-fixed-sidebar,
-    .page-actions,
-    .navmenu,
-    .ajs-menu-bar,
-    .noprint,
-    .inline-control-link,
-    .inline-control-link a,
-    a.show-labels-editor,
-    .global-comment-actions,
-    .comment-actions,
-    .quick-comment-container,
-    #addcomment {
-        display: none !important;
-    }
-
-    /* CONF-28544 cannot print multiple pages in IE */
-    #splitter-content {
-        position: relative !important;
-    }
-
-    .comment .date::before {
-        content: none !important; /* remove middot for print view */
-    }
-
-    h1.pagetitle img {
-        height: auto;
-        width: auto;
-    }
-
-    .print-only {
-        display: block;
-    }
-
-    #footer {
-        position: relative !important; /* CONF-17506 Place the footer at en=
-d of the content */
-        margin: 0;
-        padding: 0;
-        background: none;
-        clear: both;
-    }
-
-    #poweredby {
-        border-top: none;
-        background: none;
-    }
-
-    #poweredby li.print-only {
-        display: list-item;
-        font-style: italic;
-    }
-
-    #poweredby li.noprint {
-        display: none;
-    }
-
-    /* no width controls in print */
-    .wiki-content .table-wrap,
-    .wiki-content p,
-    .panel .codeContent,
-    .panel .codeContent pre,
-    .image-wrap {
-        overflow: visible !important;
-    }
-
-    /* TODO - should this work? */
-    #children-section,
-    #comments-section .comment,
-    #comments-section .comment .comment-body,
-    #comments-section .comment .comment-content,
-    #comments-section .comment p {
-        page-break-inside: avoid;
-    }
-
-    #page-children a {
-        text-decoration: none;
-    }
-
-    /**
-     hide twixies
-
-     the specificity here is a hack because print styles
-     are getting loaded before the base styles. */
-    #comments-section.pageSection .section-header,
-    #comments-section.pageSection .section-title,
-    #children-section.pageSection .section-header,
-    #children-section.pageSection .section-title,
-    .children-show-hide {
-        padding-left: 0;
-        margin-left: 0;
-    }
-
-    .children-show-hide.icon {
-        display: none;
-    }
-
-    /* personal sidebar */
-    .has-personal-sidebar #content {
-        margin-right: 0px;
-    }
-
-    .has-personal-sidebar #content .pageSection {
-        margin-right: 0px;
-    }
-
-    .no-print, .no-print * {
-        display: none !important;
-    }
-}
--->
-    </style>
-</head>
-<body>
-    <h1>Automation Best Practices</h1>
-    <div class=3D"Section1">
-        <div class=3D"contentLayout2">=20
-<div class=3D"columnLayout single" data-layout=3D"single">=20
-<div class=3D"cell normal" data-type=3D"normal">=20
-<div class=3D"innerCell">=20
-<p>This space is dedicated to providing concepts and guidelines to consider=
- when creating/maintaining automated testing suites.</p>
-</div>=20
-</div>=20
-</div>=20
-<div class=3D"columnLayout single" data-layout=3D"single">=20
-<div class=3D"cell normal" data-type=3D"normal">=20
-<div class=3D"innerCell">=20
-<h1 id=3D"AutomationBestPractices-AutomationBestPractices">Automation Best =
-Practices</h1>
-<ul class=3D"ul1">
-<li class=3D"li1"><span class=3D"s1">Always have a Repeatable/Clean =E2=80=
-=9CStart State=E2=80=9D for tests</span></li>
-<ul class=3D"ul2">
-<li class=3D"li1"><span class=3D"s1">Not tied to specific test data</span><=
-/li>
-</ul>
-<li class=3D"li1"><span class=3D"s1">Parallelization</span></li>
-<ul class=3D"ul2">
-<li class=3D"li1"><span class=3D"s1">Run all tests in parallel (not serial)=
- - much faster results</span></li>
-</ul>
-<li class=3D"li1"><span class=3D"s1">Page Object Pattern</span></li>
-<ul class=3D"ul2">
-<li class=3D"li1"><span class=3D"s1">Modularity / Maintainability</span></l=
-i>
-</ul>
-<li class=3D"li1"><span class=3D"s1">Test Constantly</span></li>
-<ul class=3D"ul2">
-<li class=3D"li1"><span class=3D"s1">Run tests on every commit =3D higher c=
-onfidence</span></li>
-<li class=3D"li1"><span class=3D"s1">Test as much as you can earlier in a s=
-print</span></li>
-<li class=3D"li1"><span class=3D"s1">Figure out how fast you want test suit=
-es to run =E2=80=93 then determine the number of tests to run <strong>AND</=
-strong>&nbsp;expand hardware : to expand throughput + value</span></li>
-</ul>
-<li class=3D"li1"><span class=3D"s1">Retest all tests 2x =E2=80=93 to remov=
-e some false positives (of failures) - this often passes due to a smaller l=
-oad by running only failures again</span></li>
-<li class=3D"li1"><span class=3D"s1">Speed things up</span></li>
-<ul class=3D"ul2">
-<li class=3D"li1"><span class=3D"s1">Run tests under 5min (the average atte=
-ntion span of an engaged adult is less than 5min)</span></li>
-<li class=3D"li1"><span class=3D"s1">Provide results before context is swit=
-ched</span></li>
-<li class=3D"li1"><span class=3D"s1">Make DEVs work for you, not against yo=
-u =E2=80=93 Engage them by providing results (value) sooner</span></li>
-</ul>
-<li class=3D"li1"><span class=3D"s1">Start Small</span></li>
-<ul class=3D"ul2">
-<li class=3D"li1"><span class=3D"s1">Don=E2=80=99t rush to automate every t=
-est case</span></li>
-<li class=3D"li1"><span class=3D"s1">Identify test case priority, then auto=
-mate</span></li>
-<li class=3D"li1"><span class=3D"s1">Don=E2=80=99t automate end-to-end (tes=
-t might be too long/complex/hard to maintain) - stub things out + combine (=
-NOTE:: Except for UX tests!)</span></li>
-<li class=3D"li1"><span class=3D"s1">Divide + Conquer (small, dynamic tests=
- &gt; faster results)</span></li>
-</ul>
-<li class=3D"li1"><span class=3D"s1">Divide Testing</span></li>
-<ul class=3D"ul2">
-<li class=3D"li1"><span class=3D"s1">By functional area</span></li>
-<li class=3D"li1"><span class=3D"s1">By hosted server</span></li>
-<li class=3D"li1"><span class=3D"s1">By backend server</span></li>
-</ul>
-<li class=3D"li1"><span class=3D"s1">Automation =3D Development Activity</s=
-pan></li>
-<ul class=3D"ul2">
-<li class=3D"li1"><span class=3D"s1">Automation <strong>IS</strong>&nbsp;a =
-development effort</span></li>
-<li class=3D"li1"><span class=3D"s1">Watch out for Cowboy Coders</span></li=
->
-<li class=3D"li1"><span class=3D"s1">Copy/Pasting inside code can be replac=
-ed by reusable code (Stay DRY)</span></li>
-<li class=3D"li1"><span class=3D"s1">Source Control is cheap insurance</spa=
-n></li>
-<li class=3D"li1"><span class=3D"s1">Bad coding practices =3D bad testing p=
-ractices (and vice versa)</span></li>
-</ul>
-<li class=3D"li1"><span class=3D"s1">Don=E2=80=99t forget to Wait</span></l=
-i>
-<ul class=3D"ul2">
-<li class=3D"li1"><span class=3D"s1">Use explicit or fluent waits (for sing=
-le elements)</span></li>
-<li class=3D"li1"><span class=3D"s1">Implicit waits for waiting all the tim=
-e (pre-known load time)</span></li>
-<li class=3D"li1"><span class=3D"s1">Fluent waits for variable element load=
-ing</span></li>
-</ul>
-<li class=3D"li1"><span class=3D"s1">Avoid Dependencies&nbsp;</span></li>
-<ul class=3D"ul2">
-<li class=3D"li1"><span class=3D"s1">Tests should not rely on previous test=
-s to pass</span></li>
-<li class=3D"li1"><span class=3D"s1">One test=E2=80=99s actions should not =
-drive another tests assertion criteria (no daisy-chaining!)</span></li>
-</ul>
-<li class=3D"li1"><span class=3D"s1">Prep Your Environment</span></li>
-<ul class=3D"ul2">
-<li class=3D"li1"><span class=3D"s1">Make sure your CI rig can handle the n=
-umber of jobs running on it simultaneously&nbsp;</span></li>
-<li class=3D"li1"><span class=3D"s1">Make sure your SUT can handle the numb=
-er of tests running on it simultaneously</span></li>
-<li class=3D"li1"><span class=3D"s1">Try to emulate the =E2=80=9CREAL PROD=
-=E2=80=9D environment</span></li>
-</ul>
-<li class=3D"li1"><span class=3D"s1">Collect Metrics</span></li>
-<ul class=3D"ul2">
-<li class=3D"li1"><span class=3D"s1">&nbsp;How long did test runs take befo=
-re and after automation?</span></li>
-<li class=3D"li1"><span class=3D"s1">How many bugs do automated tests ident=
-ify per release?</span></li>
-<li class=3D"li1"><span class=3D"s1">How many engineers does a test run req=
-uire?</span></li>
-<li class=3D"li1"><span class=3D"s1">How much money does automation save a =
-company?</span></li>
-</ul>
-</ul>
-<ul>
-<li>Caching and InPrivate Browsing
-<ul>
-<li>Sometimes, you might want to launch a browser in InPrivate mode if you =
-want to make sure there's a clean cache for your tests (for, e.g., log in t=
-ests). This is a super simple update to the BrowserWindow.Launch() method.<=
-/li>
-<li>Pass in "-private" as a second argument to the Launch method, so that i=
-t looks like:</li>
-<li>BrowserWindow.Launch(url, "-private")</li>
-<li>And voila, you have an InPrivate browser session with a clean cache!</l=
-i>
-</ul></li>
-<li>Keep commented out lines to a minimum</li>
-<li>Use consistent naming conventions</li>
-<li>Split up long methods<br><br></li>
-</ul>
-<p>&nbsp;</p>
-</div>=20
-</div>=20
-</div>=20
-</div>
-    </div>
-</body>
-</html>
-------=_Part_68_782719248.1641223591714--
+## Caching and InPrivate Browsing
+- Sometimes, you might want to launch a browser in InPrivate mode if you want to make sure there's a clean cache for your tests (for, e.g., log in tests). 
+- This is a super simple update to the BrowserWindow.Launch() method.
+</br>
+- Pass in "-private" as a second argument to the Launch method, so that it looks like:
+- BrowserWindow.Launch(url, "-private")
+- And voila, you have an InPrivate browser session with a clean cache!
