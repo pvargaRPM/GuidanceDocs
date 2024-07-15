@@ -1,343 +1,58 @@
-Message-ID: <1255132523.31.1641223473174.JavaMail.confluence@ql2confluence1.mi.corp.rockfin.com>
-Subject: Exported From Confluence
-MIME-Version: 1.0
-Content-Type: multipart/related; 
-	boundary="----=_Part_30_1466757988.1641223473173"
+<h1>Code Review</h1>
 
-------=_Part_30_1466757988.1641223473173
-Content-Type: text/html; charset=UTF-8
-Content-Transfer-Encoding: quoted-printable
-Content-Location: file:///C:/exported.html
+Code review is a critical development practice, which helps to maintain the greatest levels of software quality.
 
-<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
-      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
-      xmlns:v=3D'urn:schemas-microsoft-com:vml'
-      xmlns=3D'urn:w3-org-ns:HTML'>
-<head>
-    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
-">
-    <title>Code Review</title>
-    <!--[if gte mso 9]>
-    <xml>
-        <o:OfficeDocumentSettings>
-            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
-            <o:PixelsPerInch>72</o:PixelsPerInch>
-            <o:AllowPNG/>
-        </o:OfficeDocumentSettings>
-        <w:WordDocument>
-            <w:View>Print</w:View>
-            <w:Zoom>90</w:Zoom>
-            <w:DoNotOptimizeForBrowser/>
-        </w:WordDocument>
-    </xml>
-    <![endif]-->
-    <style>
-                <!--
-        @page Section1 {
-            size: 8.5in 11.0in;
-            margin: 1.0in;
-            mso-header-margin: .5in;
-            mso-footer-margin: .5in;
-            mso-paper-source: 0;
-        }
+It is not just about finding defects/issues with code, it helps transfer knowledge and team communication/collaboration.
 
-        table {
-            border: solid 1px;
-            border-collapse: collapse;
-        }
+Some Facts About Code Review:
+- 70% of organizations are doing code review
+- 61% of the organizations utilize a tool to review code.
+- Use of code review practices increases as organization size does. 
+80% of the organizations that have more than 500 or 1000 employees conduct core =
+review
 
-        table td, table th {
-            border: solid 1px;
-            padding: 5px;
-        }
+Common Myths:
+- "Code review is a time-consuming process which doesn't really fit in the fast-paced agile development paradigm"
+This is a misconception. Code review actually reduces the overall development effort by removing defects early in the process, which allows to fix them faster at a cheaper cost (see below for other benefits of doing code review)</p>
 
-        td {
-            page-break-inside: avoid;
-        }
+Benefits of Code Review
+- Improve software quality/gets a set of fresh eyes on the code 
+- When the author of the code under review explains the code in its entirety, it can expose edge cases that the author hadn't thought of, or invalid logic
+- Bugs are found faster
+- Knowledge sharing across teams [cross-functional]
 
-        tr {
-            page-break-after: avoid;
-        }
+Optimization methods/tricks/productive programs spread faster
+- Developers as a specialist "evolve" faster
+- mentor more junior developers
+- Increases the maintainability of code
+- forces developers to write readable code (code that can be read without explanation or introducing!)
+- adherence to coding standards, conventions, best practices
+- Increase collaboration
 
-        div.Section1 {
-            page: Section1;
-        }
+There are 2 major types of code reviews.
+These 2 types of code reviews are not mutually exclusive techniques, rather they are considered complimentary techniques to each other (hybrid approach)
 
-        /* Confluence print stylesheet. Common to all themes for print medi=
-a */
-/* Full of !important until we improve batching for print CSS */
+Pre-Commit Review
+- over-the-shoulder / email pass-around
+- pair-programming
+- Tool assisted
 
-@media print {
-    #main {
-        padding-bottom: 1em !important; /* The default padding of 6em is to=
-o much for printouts */
-    }
 
-    body {
-        font-family: Arial, Helvetica, FreeSans, sans-serif;
-        font-size: 10pt;
-        line-height: 1.2;
-    }
+Post-Commit Review
+Pre-commit reviews - are mostly considered as an informal review process. These help to detect failures, build-breaks, errors and bad designs early in the development process, prior to the code getting checked in. 
 
-    body, #full-height-container, #main, #page, #content, .has-personal-sid=
-ebar #content {
-        background: #fff !important;
-        color: #000 !important;
-        border: 0 !important;
-        width: 100% !important;
-        height: auto !important;
-        min-height: auto !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        display: block !important;
-    }
+It also helps to:
+- ensure that team coding standards and best practices are met before the code is committed<
+- enable at least 2 people to have to knowledge about the same code (knowledge backup)
 
-    a, a:link, a:visited, a:focus, a:hover, a:active {
-        color: #000;
-    }
+Here are some common ways to do pre-commit review:
+- Over-the-shoulder/emailpass-around
+	- This is a very common and an informal code review, which is easy to implement and fast to complete.
 
-    #content h1,
-    #content h2,
-    #content h3,
-    #content h4,
-    #content h5,
-    #content h6 {
-        font-family: Arial, Helvetica, FreeSans, sans-serif;
-        page-break-after: avoid;
-    }
+- Pair programming:
+ming/coding is a software development practice in which 2 programmers (driver and observer) write code as a pair on single workstation. 
+This is a very effective technique, which comes with built-in code review (in the form of an observer) and it is effective at finding bugs and also knowledge transfer.
 
-    pre {
-        font-family: Monaco, "Courier New", monospace;
-    }
-
-    #header,
-    .aui-header-inner,
-    #navigation,
-    #sidebar,
-    .sidebar,
-    #personal-info-sidebar,
-    .ia-fixed-sidebar,
-    .page-actions,
-    .navmenu,
-    .ajs-menu-bar,
-    .noprint,
-    .inline-control-link,
-    .inline-control-link a,
-    a.show-labels-editor,
-    .global-comment-actions,
-    .comment-actions,
-    .quick-comment-container,
-    #addcomment {
-        display: none !important;
-    }
-
-    /* CONF-28544 cannot print multiple pages in IE */
-    #splitter-content {
-        position: relative !important;
-    }
-
-    .comment .date::before {
-        content: none !important; /* remove middot for print view */
-    }
-
-    h1.pagetitle img {
-        height: auto;
-        width: auto;
-    }
-
-    .print-only {
-        display: block;
-    }
-
-    #footer {
-        position: relative !important; /* CONF-17506 Place the footer at en=
-d of the content */
-        margin: 0;
-        padding: 0;
-        background: none;
-        clear: both;
-    }
-
-    #poweredby {
-        border-top: none;
-        background: none;
-    }
-
-    #poweredby li.print-only {
-        display: list-item;
-        font-style: italic;
-    }
-
-    #poweredby li.noprint {
-        display: none;
-    }
-
-    /* no width controls in print */
-    .wiki-content .table-wrap,
-    .wiki-content p,
-    .panel .codeContent,
-    .panel .codeContent pre,
-    .image-wrap {
-        overflow: visible !important;
-    }
-
-    /* TODO - should this work? */
-    #children-section,
-    #comments-section .comment,
-    #comments-section .comment .comment-body,
-    #comments-section .comment .comment-content,
-    #comments-section .comment p {
-        page-break-inside: avoid;
-    }
-
-    #page-children a {
-        text-decoration: none;
-    }
-
-    /**
-     hide twixies
-
-     the specificity here is a hack because print styles
-     are getting loaded before the base styles. */
-    #comments-section.pageSection .section-header,
-    #comments-section.pageSection .section-title,
-    #children-section.pageSection .section-header,
-    #children-section.pageSection .section-title,
-    .children-show-hide {
-        padding-left: 0;
-        margin-left: 0;
-    }
-
-    .children-show-hide.icon {
-        display: none;
-    }
-
-    /* personal sidebar */
-    .has-personal-sidebar #content {
-        margin-right: 0px;
-    }
-
-    .has-personal-sidebar #content .pageSection {
-        margin-right: 0px;
-    }
-
-    .no-print, .no-print * {
-        display: none !important;
-    }
-}
--->
-    </style>
-</head>
-<body>
-    <h1>Code Review</h1>
-    <div class=3D"Section1">
-        <p style=3D"text-align: left;">Code review is a critical developmen=
-t practice, which helps to maintain the greatest levels of software quality=
-. It is&nbsp;not just about finding defects/issues with code, it helps tran=
-sfer knowledge and team communication/collaboration.</p>
-<h4 style=3D"text-align: left;" id=3D"CodeReview-SomeFactsAboutCodeReview:"=
->Some Facts About Code Review:</h4>
-<p style=3D"text-align: left;"><em>(Source: State of Code Review by SmartBe=
-ar)</em></p>
-<ol style=3D"text-align: left;">
-<li>70% of organizations are doing code review&nbsp;<br><span class=3D"conf=
-luence-embedded-file-wrapper confluence-embedded-manual-size"><img class=3D=
-"confluence-embedded-image" height=3D"436" src=3D"c6b5e60c2f4a73ba17275892b=
-886a4be" data-image-src=3D"/download/attachments/39032597/image2015-8-27%20=
-16%3A24%3A11.png?version=3D1&amp;modificationDate=3D1440707052000&amp;api=
-=3Dv2" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"39033=
-294" data-linked-resource-version=3D"1" data-linked-resource-type=3D"attach=
-ment" data-linked-resource-default-alias=3D"image2015-8-27 16:24:11.png" da=
-ta-base-url=3D"https://confluence" data-linked-resource-content-type=3D"ima=
-ge/png" data-linked-resource-container-id=3D"39032597" data-linked-resource=
--container-version=3D"26" width=3D"468"></span></li>
-<li>61% of the organizations utilize a tool to review code.<br><br></li>
-<li>Use of code review practices increases as organization size does. 80% o=
-f the organizations that have more than 500 or 1000 employees conduct core =
-review</li>
-</ol>
-<h4 style=3D"text-align: left;" id=3D"CodeReview-CommonMyth">Common Myth</h=
-4>
-<p style=3D"text-align: left;"><span style=3D"color: rgb(128,128,128);"><em=
->"Code review is a time-consuming process which doesn't really fit in the f=
-ast-paced agile development paradigm"</em></span></p>
-<p style=3D"text-align: left;">This is a misconception. Code review actuall=
-y reduces the overall development effort by removing defects early in the p=
-rocess, which allows to fix them faster at a cheaper cost (see below for ot=
-her benefits of doing code review)</p>
-<h2 style=3D"text-align: left;" id=3D"CodeReview-BenefitsofCodeReview">Bene=
-fits of Code Review</h2>
-<ul style=3D"text-align: left;">
-<li><span style=3D"color: rgb(34,34,34);">Improve software quality</span>
-<ul>
-<li><span style=3D"color: rgb(34,34,34);">gets a set of fresh eyes on the c=
-ode</span></li>
-<li><span style=3D"color: rgb(34,34,34);">&nbsp;</span><span style=3D"color=
-: rgb(34,34,34);">when the author of the code under review explains the cod=
-e in its entirety, it can expose edge cases that the author hadn't thought =
-of, or invalid logic</span></li>
-<li><span style=3D"color: rgb(34,34,34);">Bugs are found faster</span></li>
-</ul></li>
-<li><span style=3D"color: rgb(34,34,34);">K</span><span style=3D"line-heigh=
-t: 1.4285715;">nowledge sharing across the team(s) -&nbsp;team becomes cros=
-s-functional, which increases the "bus factor"</span>
-<ul>
-<li><span>Optimization methods/tricks/productive programs spread faster</sp=
-an></li>
-<li>Developers as a specialist "evolve" faster</li>
-<li>mentor more junior developers</li>
-</ul></li>
-<li>Increases the maintainability of code
-<ul>
-<li>forces developers to write readable code (code that can be read without=
- explanation or introducing!)</li>
-<li>adherence to coding standards, conventions, best practices</li>
-</ul></li>
-<li>Increase collaboration</li>
-</ul>
-<p style=3D"text-align: left;">&nbsp;</p>
-<p style=3D"text-align: left;">There are 2 major types of code reviews.&nbs=
-p;These 2 types of code reviews are&nbsp;<strong>not mutually exclusive tec=
-hniques</strong>, rather they are considered&nbsp;<strong>complimentary</st=
-rong>&nbsp;techniques to each other (<u>hybrid approach</u>):</p>
-<ol>
-<li>Pre-Commit Review
-<ul>
-<li>over-the-shoulder / email pass-around</li>
-<li>pair-programming</li>
-<li>Tool assisted</li>
-</ul></li>
-<li>Post-Commit Review</li>
-</ol>
-<h2 style=3D"text-align: left;" id=3D"CodeReview-Pre-CommitReview">Pre-Comm=
-it Review</h2>
-<p style=3D"text-align: left;">Pre-commit reviews - are mostly considered a=
-s an informal review process. These help to detect failures, build-breaks, =
-errors and bad designs =E2=80=93&nbsp;early in the development process, pri=
-or to the code getting checked in. It also helps to:</p>
-<ul style=3D"text-align: left;">
-<li>ensure that team coding standards and best practices are met before the=
- code is committed</li>
-<li>enable at least 2 people to have to knowledge about the same code (know=
-ledge backup)</li>
-</ul>
-<p style=3D"text-align: left;"><br></p>
-<p style=3D"text-align: left;">Here are some common ways to do pre-commit r=
-eview:</p>
-<ul style=3D"text-align: left;">
-<li><h4 id=3D"CodeReview-Over-the-shoulder/emailpass-around">Over-the-shoul=
-der / email pass-around</h4></li>
-</ul>
-<p style=3D"margin-left: 30.0px;text-align: left;">&nbsp; &nbsp;This is a v=
-ery common and an informal code review, which is easy to implement and fast=
- to complete.</p>
-<ul style=3D"text-align: left;">
-<li><h4 id=3D"CodeReview-Pairprogramming">Pair programming</h4>Pair program=
-ming/coding is a software development practice in which 2 programmers (driv=
-er and observer) write code as a pair on single workstation. This is a very=
- effective technique, which comes with built-in code review (in the form of=
- observer) and it is effective at finding bugs and also knowledge transfer.=
-</li>
 <li><h4 id=3D"CodeReview-Toolassisted">Tool assisted</h4></li>
 <li><strong><a href=3D"https://en.wikipedia.org/wiki/Rubber_duck_debugging"=
  class=3D"external-link" rel=3D"nofollow">Rubber-Duck</a> code review</stro=
